@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['ddfs',['ddfs',['../class_adjacency___list.html#a36c640eaabccc946280cac85aa6f5998',1,'Adjacency_List']]],
-  ['dfs',['dfs',['../class_adjacency___list.html#a18dd59802c4a04906aec8cc0703254e8',1,'Adjacency_List']]],
-  ['displaygraph',['displaygraph',['../class_adjacency___list.html#a8bd4579e85308ada2431895a71c5f7c7',1,'Adjacency_List::displaygraph()'],['../class_ref_frames.html#a9b6d136eb76e8fe606691bbc70771314',1,'RefFrames::displaygraph()']]]
+  ['b',['b',['../jquery_8js.html#aa4026ad5544b958e54ce5e106fa1c805',1,'b():&#160;jquery.js'],['../jquery_8js.html#a2fa551895933fae935a0a6b87282241d',1,'b(function(){if(!b.support.reliableMarginRight){b.cssHooks.marginRight={get:function(bw, bv){var e;b.swap(bw,{display:&quot;inline-block&quot;}, function(){if(bv){e=Z(bw,&quot;margin-right&quot;,&quot;marginRight&quot;)}else{e=bw.style.marginRight}});return e}}}}):&#160;jquery.js']]],
+  ['bb',['bb',['../jquery_8js.html#a1d6558865876e1c8cca029fce41a4bdb',1,'jquery.js']]],
+  ['bq',['bq',['../jquery_8js.html#af6ee77c71b2c89bdb365145ac5ad1219',1,'jquery.js']]],
+  ['bs',['bs',['../jquery_8js.html#ae77642f8ef73fb9c20c2a737d956acda',1,'jquery.js']]]
 ];

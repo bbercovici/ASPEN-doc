@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['set_5fmrp',['set_mrp',['../class_ref_transform.html#a15620d27514fadf1be4bdb82a84e59b4',1,'RefTransform']]],
-  ['set_5fname',['set_name',['../class_ref_transform.html#ab74accbfbc85accc8b9ffbc46eb51243',1,'RefTransform']]],
-  ['set_5forigin',['set_origin',['../class_ref_transform.html#a8938ff4b5f8a275705ef1ceb41f1bbea',1,'RefTransform']]],
-  ['set_5fref_5fframe_5fconnectivity',['set_ref_frame_connectivity',['../class_ref_frames.html#a0664b4c230d70b179fa84b479505cc5b',1,'RefFrames']]],
-  ['set_5fref_5fframes_5fname',['set_ref_frames_name',['../class_ref_frames.html#a4a9a893ca37aee8bb0b1c87cc51e606b',1,'RefFrames']]],
-  ['setdirected',['setdirected',['../class_adjacency___list.html#a463a0f885dd38f2d49b928bc12b1cdcc',1,'Adjacency_List']]]
+  ['if',['if',['../jquery_8js.html#a9db6d45a025ad692282fe23e69eeba43',1,'if(!b.support.opacity):&#160;jquery.js'],['../jquery_8js.html#a30d3d2cd5b567c9f31b2aa30b9cb3bb8',1,'if(av.defaultView &amp;&amp;av.defaultView.getComputedStyle):&#160;jquery.js'],['../jquery_8js.html#a2c54bd8ed7482e89d19331ba61fe221c',1,'if(av.documentElement.currentStyle):&#160;jquery.js'],['../jquery_8js.html#a42cbfadee2b4749e8f699ea8d745a0e4',1,'if(b.expr &amp;&amp;b.expr.filters):&#160;jquery.js']]],
+  ['init_5fsearch',['init_search',['../search_8js.html#ae95ec7d5d450d0a8d6928a594798aaf4',1,'search.js']]]
 ];

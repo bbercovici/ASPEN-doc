@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -89,6 +90,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">RefFrames Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_ref_frames_8hpp_source.html">RefFrames.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -104,9 +107,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aebecb71774e223fd1a2e02b0be4cf37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0264931fcdf5d4a1e766153ef3df4594"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a0264931fcdf5d4a1e766153ef3df4594">add_connectivity</a> (std::pair&lt; std::pair&lt; std::string, std::string &gt;, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt; ref_frame_connectivity)</td></tr>
 <tr class="separator:a0264931fcdf5d4a1e766153ef3df4594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a469409b2edfc824931e5ad4dbb734b7c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a469409b2edfc824931e5ad4dbb734b7c"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a469409b2edfc824931e5ad4dbb734b7c">convert</a> (const T &amp;coordinates, const std::string from, const std::string to)</td></tr>
-<tr class="separator:a469409b2edfc824931e5ad4dbb734b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35fb19dc34dc64175b92a3bd773ede2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ae35fb19dc34dc64175b92a3bd773ede2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#ae35fb19dc34dc64175b92a3bd773ede2">convert</a> (const T &amp;coordinates, const std::string from, const std::string to)</td></tr>
+<tr class="separator:ae35fb19dc34dc64175b92a3bd773ede2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b6d136eb76e8fe606691bbc70771314"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a9b6d136eb76e8fe606691bbc70771314">displaygraph</a> (uint16_t w)</td></tr>
 <tr class="separator:a9b6d136eb76e8fe606691bbc70771314"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99bf1f3d78498195404fb49ea2238383"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a99bf1f3d78498195404fb49ea2238383">load_context_file</a> (std::string filename)</td></tr>
@@ -114,8 +117,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:af526827b204dc560953d892b69c7d1cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af526827b204dc560953d892b69c7d1cc"></a>
-<a class="el" href="class_adjacency___list.html">Adjacency_List</a>&lt; std::string, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ref_frame_graph</b></td></tr>
+<tr class="memitem:af526827b204dc560953d892b69c7d1cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adjacency___list.html">Adjacency_List</a>&lt; std::string, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#af526827b204dc560953d892b69c7d1cc">ref_frame_graph</a></td></tr>
 <tr class="separator:af526827b204dc560953d892b69c7d1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -221,14 +223,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a469409b2edfc824931e5ad4dbb734b7c"></a>
+<a class="anchor" id="ae35fb19dc34dc64175b92a3bd773ede2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T RefFrames::convert </td>
+          <td class="memname">template arma::mat RefFrames::convert </td>
           <td>(</td>
           <td class="paramtype">const T &amp;&#160;</td>
           <td class="paramname"><em>coordinates</em>, </td>
@@ -350,8 +352,30 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>include/<a class="el" href="_ref_frames_8hpp_source.html">RefFrames.hpp</a></li>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="af526827b204dc560953d892b69c7d1cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_adjacency___list.html">Adjacency_List</a>&lt;std::string, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt; RefFrames::ref_frame_graph</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>/Users/bbercovici/GDrive/CUBoulder/Research/code/ASPEN/include/<a class="el" href="_ref_frames_8hpp_source.html">RefFrames.hpp</a></li>
+<li>/Users/bbercovici/GDrive/CUBoulder/Research/code/ASPEN/source/<a class="el" href="_ref_frames_8cpp.html">RefFrames.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
