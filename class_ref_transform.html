@@ -171,8 +171,8 @@ Protected Attributes</h2></td></tr>
 <p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">origin</td><td>Coordinates of the child reference frame's origin expressed in the parent frame </td></tr>
-    <tr><td class="paramname">mrp</td><td>MRP set determining the orientation of the reference frame with respect to its parent: DCM[ref_frame parent] = DCM[mrp] </td></tr>
-    <tr><td class="paramname">name</td><td>Name of the reference frame tranform(Typically "BN","LB",..., where "N" is customarily reserved for an inertial reference frame) </td></tr>
+    <tr><td class="paramname">mrp</td><td>MRP set determining the orientation of the child reference frame with respect to its parent: DCM[$child + $parent] = DCM[mrp] </td></tr>
+    <tr><td class="paramname">name</td><td>Name of the reference frame tranform listed in the parent to child order (Typically "NB","BL",..., where "N" is customarily reserved for an inertial reference frame) </td></tr>
   </table>
   </dd>
 </dl>
@@ -192,7 +192,12 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Accessor to mrp </p><dl class="section return"><dt>Returns</dt><dd>MRP set determining the orientation of the reference frame </dd></dl>
+<p>Accessor to mrp </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mrp</td><td>MRP set determining the orientation of the child reference frame with respect to its parent: DCM[$child + $parent] = DCM[mrp] </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -208,7 +213,12 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Accessor to transform name </p><dl class="section return"><dt>Returns</dt><dd>Name of the reference frame tranform(Typically "BN","LB",..., where "N" is customarily reserved for an inertial reference frame) </dd></dl>
+<p>Accessor to transform name </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the reference frame tranform listed in the $parent to $child order (Typically "NB","BL",..., where "N" is customarily reserved for an inertial reference frame) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

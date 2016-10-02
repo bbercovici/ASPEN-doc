@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['readme',['README',['../md__Users_bbercovici_GDrive_CUBoulder_Research_code_ASPEN_README.html',1,'']]],
   ['readme_2emd',['README.md',['../doc_2_r_e_a_d_m_e_8md.html',1,'']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
   ['ref_5fcontext_2etxt',['ref_context.txt',['../ref__context_8txt.html',1,'']]],

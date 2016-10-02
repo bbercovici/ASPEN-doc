@@ -13,6 +13,8 @@ var searchData=
   ['files_5f8_2ejs',['files_8.js',['../files__8_8js.html',1,'']]],
   ['files_5f9_2ejs',['files_9.js',['../files__9_8js.html',1,'']]],
   ['files_5fa_2ejs',['files_a.js',['../files__a_8js.html',1,'']]],
+  ['files_5fb_2ejs',['files_b.js',['../files__b_8js.html',1,'']]],
+  ['files_5fc_2ejs',['files_c.js',['../files__c_8js.html',1,'']]],
   ['focalplane_2ecpp',['FocalPlane.cpp',['../_focal_plane_8cpp.html',1,'']]],
   ['focalplane_2ehpp',['FocalPlane.hpp',['../_focal_plane_8hpp.html',1,'']]],
   ['functions_5f0_2ejs',['functions_0.js',['../functions__0_8js.html',1,'']]],
