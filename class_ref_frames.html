@@ -63,6 +63,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -107,6 +108,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aebecb71774e223fd1a2e02b0be4cf37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0264931fcdf5d4a1e766153ef3df4594"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a0264931fcdf5d4a1e766153ef3df4594">add_connectivity</a> (std::pair&lt; std::pair&lt; std::string, std::string &gt;, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt; ref_frame_connectivity)</td></tr>
 <tr class="separator:a0264931fcdf5d4a1e766153ef3df4594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f58d553af5ebd97de2e73ab8ba09139"><td class="memItemLeft" align="right" valign="top">arma::mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a3f58d553af5ebd97de2e73ab8ba09139">get_dcm</a> (const std::string from, const std::string to)</td></tr>
+<tr class="separator:a3f58d553af5ebd97de2e73ab8ba09139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8957ae6e62f7faf00170a8a477f9a155"><td class="memItemLeft" align="right" valign="top">arma::mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a8957ae6e62f7faf00170a8a477f9a155">get_dcm</a> (const std::string dcm_name)</td></tr>
+<tr class="separator:a8957ae6e62f7faf00170a8a477f9a155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae35fb19dc34dc64175b92a3bd773ede2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ae35fb19dc34dc64175b92a3bd773ede2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#ae35fb19dc34dc64175b92a3bd773ede2">convert</a> (const T &amp;coordinates, const std::string from, const std::string to)</td></tr>
 <tr class="separator:ae35fb19dc34dc64175b92a3bd773ede2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,6 +289,70 @@ template&lt;class T &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a3f58d553af5ebd97de2e73ab8ba09139"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::mat RefFrames::get_dcm </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the DCM of the rotational transform from frame A to frame B, [BA] </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">from</td><td>String designating the departure reference frame (ex : "A") </td></tr>
+    <tr><td class="paramname">to</td><td>String designating the arrival reference frame (ex: "B") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dcm Direction Cosine Matrix (ex: [BA]) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8957ae6e62f7faf00170a8a477f9a155"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::mat RefFrames::get_dcm </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>dcm_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the DCM of the rotational transform from frame A to frame B, [BA] </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">from</td><td>String designating the dcm frame (ex : "[BA]") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dcm Direction Cosine Matrix (ex: [BA])</dd></dl>
+<p>Returns the DCM of the rotational transform from frame A to frame B, [BA] </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">from</td><td>String designating the dcm frame (ex : "[BA]"). dcm_name must be exactly of this form or an identity matrix is returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dcm Direction Cosine Matrix (ex: [BA]) </dd></dl>
 
 </div>
 </div>

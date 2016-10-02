@@ -2,7 +2,7 @@ var searchData=
 [
   ['searchbox',['SearchBox',['../search_8js.html#a52066106482f8136aa9e0ec859e8188f',1,'search.js']]],
   ['searchresults',['SearchResults',['../search_8js.html#a9189b9f7a32b6bc78240f40348f7fe03',1,'search.js']]],
-  ['set',['set',['../_c_make_lists_8txt.html#a2c3764da24c2498fd4b3de552fc8f4d6',1,'set(CMAKE_CXX_FLAGS&quot;-std=c++11 -stdlib=libc++ &quot;) add_definitions(-Wall) include_directories(include) find_package(Armadillo REQUIRED) include_directories($:&#160;CMakeLists.txt'],['../_c_make_lists_8txt.html#ab2bb2a7c08a40f350fb1ac3743dbae6c',1,'set(library_dependencies ${ARMADILLO_LIBRARIES}${Boost_LIBRARIES}) add_executable($:&#160;CMakeLists.txt']]],
+  ['set',['set',['../_c_make_lists_8txt.html#a16bdc5fd6addf4fcab37e979a9996395',1,'CMakeLists.txt']]],
   ['set_5fmrp',['set_mrp',['../class_ref_transform.html#a15620d27514fadf1be4bdb82a84e59b4',1,'RefTransform']]],
   ['set_5fname',['set_name',['../class_ref_transform.html#ab74accbfbc85accc8b9ffbc46eb51243',1,'RefTransform']]],
   ['set_5forigin',['set_origin',['../class_ref_transform.html#a8938ff4b5f8a275705ef1ceb41f1bbea',1,'RefTransform']]],

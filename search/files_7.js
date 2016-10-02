@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['pages_5f0_2ejs',['pages_0.js',['../pages__0_8js.html',1,'']]]
+  ['osxhelper_2eh',['osxHelper.h',['../osx_helper_8h.html',1,'']]],
+  ['osxhelper_2emm',['osxHelper.mm',['../osx_helper_8mm.html',1,'']]]
 ];
