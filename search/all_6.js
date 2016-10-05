@@ -18,6 +18,8 @@ var searchData=
   ['files_5fc_2ejs',['files_c.js',['../files__c_8js.html',1,'']]],
   ['filesystem',['filesystem',['../_c_make_cache_8txt.html#a68d838b8eee48cdcf3d1a1cb35e3cb64',1,'CMakeCache.txt']]],
   ['find_5fpackage',['find_package',['../_c_make_lists_8txt.html#a276201d92e3a1e76c6196a7c51ba064e',1,'find_package(Boost 1.45.0 COMPONENTS timer filesystem) include_directories($:&#160;CMakeLists.txt'],['../_c_make_lists_8txt.html#a9663f5c6c1e194cb3f31026b113b24cb',1,'find_package(Qt5Widgets REQUIRED) include_directories($:&#160;CMakeLists.txt']]],
+  ['first_5frot_5flineedit',['first_rot_lineedit',['../class_ref_lookup_widget.html#af904ded513bd66088253add375f2d7ad',1,'RefLookupWidget']]],
+  ['first_5frotation_5ftitle',['first_rotation_title',['../class_ref_lookup_widget.html#a55319523fa281280f992232f20e08429',1,'RefLookupWidget']]],
   ['focalplane_2ecpp',['FocalPlane.cpp',['../_focal_plane_8cpp.html',1,'']]],
   ['focalplane_2ehpp',['FocalPlane.hpp',['../_focal_plane_8hpp.html',1,'']]],
   ['functions_5f0_2ejs',['functions_0.js',['../functions__0_8js.html',1,'']]],

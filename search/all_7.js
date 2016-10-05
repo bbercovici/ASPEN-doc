@@ -5,6 +5,8 @@ var searchData=
   ['get_5fmrp',['get_mrp',['../class_ref_transform.html#aa58cededdba9d7d2e79a10f1e1f9dade',1,'RefTransform']]],
   ['get_5fname',['get_name',['../class_ref_transform.html#a00c839c6b7a621a3f8628f58659ab943',1,'RefTransform']]],
   ['get_5forigin',['get_origin',['../class_ref_transform.html#a945388a80c98187b7c1d6499292dd8c3',1,'RefTransform']]],
+  ['get_5fref_5fframes',['get_ref_frames',['../class_mainwindow.html#a1666473b64a32a63a09f810f385a6b25',1,'Mainwindow']]],
+  ['get_5fref_5fframes_5fnames',['get_ref_frames_names',['../class_ref_frames.html#a6fcca315476bbb2e099eb43165abba7c',1,'RefFrames']]],
   ['get_5frenderer',['get_renderer',['../class_mainwindow.html#aee08384f8f7f7d745d2fc6ac73e2829c',1,'Mainwindow']]],
   ['getedge',['getedge',['../class_adjacency___list.html#aeb2da43c411ed0a239798a2a3c883f24',1,'Adjacency_List']]],
   ['getnumv',['getnumv',['../class_adjacency___list.html#afc9a43d2d171801e35c1f45ae6baca93',1,'Adjacency_List']]],
