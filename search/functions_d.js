@@ -1,8 +1,10 @@
 var searchData=
 [
+  ['save_5fref_5fframe_5fcontext',['save_ref_frame_context',['../class_ref_frames.html#acda1180c8954d7749e1c684fbb496313',1,'RefFrames']]],
   ['searchbox',['SearchBox',['../search_8js.html#a52066106482f8136aa9e0ec859e8188f',1,'search.js']]],
   ['searchresults',['SearchResults',['../search_8js.html#a9189b9f7a32b6bc78240f40348f7fe03',1,'search.js']]],
   ['set',['set',['../_c_make_lists_8txt.html#a16bdc5fd6addf4fcab37e979a9996395',1,'CMakeLists.txt']]],
+  ['set_5faction_5fstatus',['set_action_status',['../class_mainwindow.html#afa7ec8f709f5a0e32006b2fb25301135',1,'Mainwindow']]],
   ['set_5fmrp',['set_mrp',['../class_ref_transform.html#a15620d27514fadf1be4bdb82a84e59b4',1,'RefTransform']]],
   ['set_5fname',['set_name',['../class_ref_transform.html#ab74accbfbc85accc8b9ffbc46eb51243',1,'RefTransform']]],
   ['set_5forigin',['set_origin',['../class_ref_transform.html#a8938ff4b5f8a275705ef1ceb41f1bbea',1,'RefTransform']]],

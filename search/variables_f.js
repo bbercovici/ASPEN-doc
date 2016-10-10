@@ -1,7 +1,16 @@
 var searchData=
 [
-  ['ref_5fframe_5fgraph',['ref_frame_graph',['../class_ref_frames.html#af526827b204dc560953d892b69c7d1cc',1,'RefFrames']]],
+  ['rad_5fbutton',['rad_button',['../class_ref_lookup_widget.html#a5aed919140a0aa55a20448fef1c0b1fa',1,'RefLookupWidget']]],
+  ['ref_5fframe_5fgraph',['ref_frame_graph',['../class_ref_frames.html#ab81c6696091a1fb18e3c161d8fb975ca',1,'RefFrames']]],
+  ['ref_5fframe_5fvisibility_5fcheckbox',['ref_frame_visibility_checkbox',['../class_ref_frame_graph_properties_widget.html#a7c5f875ff28838dfd1fa973905a472e0',1,'RefFrameGraphPropertiesWidget']]],
+  ['ref_5fframe_5fvisiblity_5flabel',['ref_frame_visiblity_label',['../class_ref_frame_graph_properties_widget.html#a0f976e067e57ecc1e10c5cb1ff8040b0',1,'RefFrameGraphPropertiesWidget']]],
+  ['ref_5fframe_5fvisiblity_5flayout',['ref_frame_visiblity_layout',['../class_ref_frame_graph_properties_widget.html#ac3d462ff94938d48078aa57a7d4541a6',1,'RefFrameGraphPropertiesWidget']]],
+  ['ref_5fframe_5fvisiblity_5fwidget',['ref_frame_visiblity_widget',['../class_ref_frame_graph_properties_widget.html#a13fff41dc87eaecf09abd500d878cf09',1,'RefFrameGraphPropertiesWidget']]],
   ['ref_5fframes_5fnames',['ref_frames_names',['../class_ref_frames.html#ac2750e786c1edba39055a5826f3ca4eb',1,'RefFrames']]],
+  ['reference_5fframe_5fcombobox',['reference_frame_combobox',['../class_ref_frame_graph_properties_widget.html#a4fc32b72ca5069baf9a26355d2b149ad',1,'RefFrameGraphPropertiesWidget']]],
+  ['reference_5fframe_5flabel',['reference_frame_label',['../class_ref_frame_graph_properties_widget.html#af13188da7a959ef253ad85e679a01044',1,'RefFrameGraphPropertiesWidget']]],
+  ['reference_5fframe_5flayout',['reference_frame_layout',['../class_ref_frame_graph_properties_widget.html#a3ca4a475efa13be24ce3c41efff2c4ab',1,'RefFrameGraphPropertiesWidget']]],
+  ['reference_5fframe_5fwidget',['reference_frame_widget',['../class_ref_frame_graph_properties_widget.html#adb9b79a727c8c836bd4f940011ea3a71',1,'RefFrameGraphPropertiesWidget']]],
   ['rotation_5ffirst_5frot_5flayout',['rotation_first_rot_layout',['../class_ref_lookup_widget.html#a0258a942ade1adc3c2eae0ac00e778a2',1,'RefLookupWidget']]],
   ['rotation_5fholder_5ffirst_5frot_5fwidget',['rotation_holder_first_rot_widget',['../class_ref_lookup_widget.html#a80399f20e21e4991c57d430a7ceff949',1,'RefLookupWidget']]],
   ['rotation_5fholder_5fsecond_5frot_5fwidget',['rotation_holder_second_rot_widget',['../class_ref_lookup_widget.html#af5ddcb64b147c28c93dc123b71b6fa78',1,'RefLookupWidget']]],
@@ -14,5 +23,5 @@ var searchData=
   ['rotation_5ftitle',['rotation_title',['../class_ref_lookup_widget.html#a1d3fbb5beda09d52fefd548229e48b1a',1,'RefLookupWidget']]],
   ['rotation_5ftitle_5fholder_5flayout',['rotation_title_holder_layout',['../class_ref_lookup_widget.html#acefba97e6132c0f6fd4ee5f34ebc7c1f',1,'RefLookupWidget']]],
   ['rotation_5ftitle_5fholder_5fwidget',['rotation_title_holder_widget',['../class_ref_lookup_widget.html#ad923f5a358a6cf39ba89881fdc7bf1d4',1,'RefLookupWidget']]],
-  ['rpath',['rpath',['../link_8txt.html#a7b44995a1e681d9682cdb1f7626c43e8',1,'link.txt']]]
+  ['rpath',['rpath',['../link_8txt.html#a5b67506ed2a3b66a11bebf3a94d68a96',1,'link.txt']]]
 ];

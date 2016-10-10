@@ -1,12 +1,26 @@
 var searchData=
 [
+  ['rad_5fbutton',['rad_button',['../class_ref_lookup_widget.html#a5aed919140a0aa55a20448fef1c0b1fa',1,'RefLookupWidget']]],
   ['readme_2emd',['README.md',['../doc_2_r_e_a_d_m_e_8md.html',1,'']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
   ['ref_5fcontext_5f1_2etxt',['ref_context_1.txt',['../ref__context__1_8txt.html',1,'']]],
+  ['ref_5fcontext_5f1_5fmod_2etxt',['ref_context_1_mod.txt',['../ref__context__1__mod_8txt.html',1,'']]],
   ['ref_5fcontext_5f2_2etxt',['ref_context_2.txt',['../ref__context__2_8txt.html',1,'']]],
+  ['ref_5fcontext_5f2_5fmrp_2etxt',['ref_context_2_mrp.txt',['../ref__context__2__mrp_8txt.html',1,'']]],
   ['ref_5fcontext_5f3_2etxt',['ref_context_3.txt',['../ref__context__3_8txt.html',1,'']]],
-  ['ref_5fframe_5fgraph',['ref_frame_graph',['../class_ref_frames.html#af526827b204dc560953d892b69c7d1cc',1,'RefFrames']]],
+  ['ref_5fframe_5fgraph',['ref_frame_graph',['../class_ref_frames.html#ab81c6696091a1fb18e3c161d8fb975ca',1,'RefFrames']]],
+  ['ref_5fframe_5fvisibility_5fcheckbox',['ref_frame_visibility_checkbox',['../class_ref_frame_graph_properties_widget.html#a7c5f875ff28838dfd1fa973905a472e0',1,'RefFrameGraphPropertiesWidget']]],
+  ['ref_5fframe_5fvisiblity_5flabel',['ref_frame_visiblity_label',['../class_ref_frame_graph_properties_widget.html#a0f976e067e57ecc1e10c5cb1ff8040b0',1,'RefFrameGraphPropertiesWidget']]],
+  ['ref_5fframe_5fvisiblity_5flayout',['ref_frame_visiblity_layout',['../class_ref_frame_graph_properties_widget.html#ac3d462ff94938d48078aa57a7d4541a6',1,'RefFrameGraphPropertiesWidget']]],
+  ['ref_5fframe_5fvisiblity_5fwidget',['ref_frame_visiblity_widget',['../class_ref_frame_graph_properties_widget.html#a13fff41dc87eaecf09abd500d878cf09',1,'RefFrameGraphPropertiesWidget']]],
   ['ref_5fframes_5fnames',['ref_frames_names',['../class_ref_frames.html#ac2750e786c1edba39055a5826f3ca4eb',1,'RefFrames']]],
+  ['reference_5fframe_5fcombobox',['reference_frame_combobox',['../class_ref_frame_graph_properties_widget.html#a4fc32b72ca5069baf9a26355d2b149ad',1,'RefFrameGraphPropertiesWidget']]],
+  ['reference_5fframe_5flabel',['reference_frame_label',['../class_ref_frame_graph_properties_widget.html#af13188da7a959ef253ad85e679a01044',1,'RefFrameGraphPropertiesWidget']]],
+  ['reference_5fframe_5flayout',['reference_frame_layout',['../class_ref_frame_graph_properties_widget.html#a3ca4a475efa13be24ce3c41efff2c4ab',1,'RefFrameGraphPropertiesWidget']]],
+  ['reference_5fframe_5fwidget',['reference_frame_widget',['../class_ref_frame_graph_properties_widget.html#adb9b79a727c8c836bd4f940011ea3a71',1,'RefFrameGraphPropertiesWidget']]],
+  ['refframegraphpropertieswidget',['RefFrameGraphPropertiesWidget',['../class_ref_frame_graph_properties_widget.html',1,'RefFrameGraphPropertiesWidget'],['../class_ref_frame_graph_properties_widget.html#ad312644ffaba04a0a44849c2a56e10ed',1,'RefFrameGraphPropertiesWidget::RefFrameGraphPropertiesWidget()']]],
+  ['refframegraphpropertieswidget_2ecpp',['RefFrameGraphPropertiesWidget.cpp',['../_ref_frame_graph_properties_widget_8cpp.html',1,'']]],
+  ['refframegraphpropertieswidget_2ehpp',['RefFrameGraphPropertiesWidget.hpp',['../_ref_frame_graph_properties_widget_8hpp.html',1,'']]],
   ['refframes',['RefFrames',['../class_ref_frames.html',1,'RefFrames'],['../class_ref_frames.html#adce8f9d3fa91096391dc101346b40d2b',1,'RefFrames::RefFrames()'],['../class_ref_frames.html#ace47994d031ed39e9a60aa94c1dec491',1,'RefFrames::RefFrames(const std::vector&lt; std::string &gt; ref_frames_names, const std::vector&lt; std::pair&lt; std::pair&lt; std::string, std::string &gt;, RefTransform * &gt; &gt; &amp;ref_frame_connectivity_vec)']]],
   ['refframes_2ecpp',['RefFrames.cpp',['../_ref_frames_8cpp.html',1,'']]],
   ['refframes_2ehpp',['RefFrames.hpp',['../_ref_frames_8hpp.html',1,'']]],
@@ -18,6 +32,7 @@ var searchData=
   ['reftransform_2ehpp',['RefTransform.hpp',['../_ref_transform_8hpp.html',1,'']]],
   ['removeedge',['removeedge',['../class_adjacency___list.html#a472ebd0a5b83448088959d1173fba710',1,'Adjacency_List']]],
   ['removevertex',['removevertex',['../class_adjacency___list.html#a1794c310f08f59d85cb57b5d33caa667',1,'Adjacency_List']]],
+  ['reset_5fref_5fframe_5fgraph',['reset_ref_frame_graph',['../class_ref_frames.html#a1ef54d057ed2ec4ee5a19568e67a3346',1,'RefFrames']]],
   ['rigidbodykinematics_2ecpp',['RigidBodyKinematics.cpp',['../_rigid_body_kinematics_8cpp.html',1,'']]],
   ['rigidbodykinematics_2ehpp',['RigidBodyKinematics.hpp',['../_rigid_body_kinematics_8hpp.html',1,'']]],
   ['rotation_5ffirst_5frot_5flayout',['rotation_first_rot_layout',['../class_ref_lookup_widget.html#a0258a942ade1adc3c2eae0ac00e778a2',1,'RefLookupWidget']]],
@@ -32,5 +47,5 @@ var searchData=
   ['rotation_5ftitle',['rotation_title',['../class_ref_lookup_widget.html#a1d3fbb5beda09d52fefd548229e48b1a',1,'RefLookupWidget']]],
   ['rotation_5ftitle_5fholder_5flayout',['rotation_title_holder_layout',['../class_ref_lookup_widget.html#acefba97e6132c0f6fd4ee5f34ebc7c1f',1,'RefLookupWidget']]],
   ['rotation_5ftitle_5fholder_5fwidget',['rotation_title_holder_widget',['../class_ref_lookup_widget.html#ad923f5a358a6cf39ba89881fdc7bf1d4',1,'RefLookupWidget']]],
-  ['rpath',['rpath',['../link_8txt.html#a7b44995a1e681d9682cdb1f7626c43e8',1,'link.txt']]]
+  ['rpath',['rpath',['../link_8txt.html#a5b67506ed2a3b66a11bebf3a94d68a96',1,'link.txt']]]
 ];

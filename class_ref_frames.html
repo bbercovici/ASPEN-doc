@@ -104,6 +104,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4a9a893ca37aee8bb0b1c87cc51e606b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fcca315476bbb2e099eb43165abba7c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a6fcca315476bbb2e099eb43165abba7c">get_ref_frames_names</a> ()</td></tr>
 <tr class="separator:a6fcca315476bbb2e099eb43165abba7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbaa182a36b43179fde968b3011444cc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#adbaa182a36b43179fde968b3011444cc">get_transform_names</a> ()</td></tr>
+<tr class="separator:adbaa182a36b43179fde968b3011444cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0664b4c230d70b179fa84b479505cc5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a0664b4c230d70b179fa84b479505cc5b">set_ref_frame_connectivity</a> (const std::vector&lt; std::pair&lt; std::pair&lt; std::string, std::string &gt;, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt; &gt; &amp;ref_frame_connectivity_vec)</td></tr>
 <tr class="separator:a0664b4c230d70b179fa84b479505cc5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebecb71774e223fd1a2e02b0be4cf37b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#aebecb71774e223fd1a2e02b0be4cf37b">add_frame</a> (std::string ref_frame_name)</td></tr>
@@ -114,20 +116,28 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3f58d553af5ebd97de2e73ab8ba09139"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8957ae6e62f7faf00170a8a477f9a155"><td class="memItemLeft" align="right" valign="top">arma::mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a8957ae6e62f7faf00170a8a477f9a155">get_dcm</a> (const std::string dcm_name)</td></tr>
 <tr class="separator:a8957ae6e62f7faf00170a8a477f9a155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a6659e71f38b114edd22d34fecb32a"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a80a6659e71f38b114edd22d34fecb32a">get_transform_origin</a> (const std::string from, const std::string to)</td></tr>
+<tr class="separator:a80a6659e71f38b114edd22d34fecb32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc59e516d0d4a6b65e540231211f361a"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#adc59e516d0d4a6b65e540231211f361a">get_transform_origin</a> (const std::string dcm_name)</td></tr>
+<tr class="separator:adc59e516d0d4a6b65e540231211f361a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae35fb19dc34dc64175b92a3bd773ede2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ae35fb19dc34dc64175b92a3bd773ede2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#ae35fb19dc34dc64175b92a3bd773ede2">convert</a> (const T &amp;coordinates, const std::string from, const std::string to)</td></tr>
 <tr class="separator:ae35fb19dc34dc64175b92a3bd773ede2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b6d136eb76e8fe606691bbc70771314"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a9b6d136eb76e8fe606691bbc70771314">displaygraph</a> (uint16_t w)</td></tr>
 <tr class="separator:a9b6d136eb76e8fe606691bbc70771314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3813437c278b842b627434899c8762fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a3813437c278b842b627434899c8762fe">empty_ref_frame_graph</a> ()</td></tr>
-<tr class="separator:a3813437c278b842b627434899c8762fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ef54d057ed2ec4ee5a19568e67a3346"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a1ef54d057ed2ec4ee5a19568e67a3346">reset_ref_frame_graph</a> ()</td></tr>
+<tr class="separator:a1ef54d057ed2ec4ee5a19568e67a3346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4d334f0581da523cf3cec8b92937b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adjacency___list.html">Adjacency_List</a>&lt; std::string, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#afb4d334f0581da523cf3cec8b92937b7">get_ref_frame_graph</a> ()</td></tr>
+<tr class="separator:afb4d334f0581da523cf3cec8b92937b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99bf1f3d78498195404fb49ea2238383"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#a99bf1f3d78498195404fb49ea2238383">load_context_file</a> (std::string filename)</td></tr>
 <tr class="separator:a99bf1f3d78498195404fb49ea2238383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda1180c8954d7749e1c684fbb496313"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#acda1180c8954d7749e1c684fbb496313">save_ref_frame_context</a> (const std::string filename, const std::string rotation_type)</td></tr>
+<tr class="separator:acda1180c8954d7749e1c684fbb496313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:af526827b204dc560953d892b69c7d1cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adjacency___list.html">Adjacency_List</a>&lt; std::string, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#af526827b204dc560953d892b69c7d1cc">ref_frame_graph</a></td></tr>
-<tr class="separator:af526827b204dc560953d892b69c7d1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81c6696091a1fb18e3c161d8fb975ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_adjacency___list.html">Adjacency_List</a>&lt; std::string, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#ab81c6696091a1fb18e3c161d8fb975ca">ref_frame_graph</a></td></tr>
+<tr class="separator:ab81c6696091a1fb18e3c161d8fb975ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2750e786c1edba39055a5826f3ca4eb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_frames.html#ac2750e786c1edba39055a5826f3ca4eb">ref_frames_names</a></td></tr>
 <tr class="separator:ac2750e786c1edba39055a5826f3ca4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -175,7 +185,7 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">ref_frames_names</td><td>Vector of strings listing the names of the ref frames to be put in the reference frame graph </td></tr>
     <tr><td class="paramname">ref_frame_connectivity_vec</td><td>Vector storing pairs formed with two arguments:<ul>
-<li>std::pair &lt; std::pair&lt; std::string, std::string &gt; : pair identifying the vertices to connect (ex: std::pair&lt;"N","B")&gt;)</li>
+<li>std::pair&lt; std::string, std::string &gt; : pair identifying the vertices to connect (ex: std::pair&lt;"N","B")&gt;)</li>
 <li><a class="el" href="class_ref_transform.html">RefTransform</a> * : pointer to the reference frame transform between the two vertices. This argument defines the parent/child relationship of the transform between "N" and "B" (continuing the same example as before). </li>
 </ul>
 </td></tr>
@@ -298,22 +308,6 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a3813437c278b842b627434899c8762fe"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RefFrames::empty_ref_frame_graph </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Empties the reference frame graph </p>
-
-</div>
-</div>
 <a class="anchor" id="a3f58d553af5ebd97de2e73ab8ba09139"></a>
 <div class="memitem">
 <div class="memproto">
@@ -363,11 +357,26 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 <p>Returns the DCM of the rotational transform from frame A to frame B, [BA] </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">from</td><td>String designating the dcm frame (ex : "[BA]") </td></tr>
+    <tr><td class="paramname">dcm_name</td><td>String designating the dcm frame (ex : "BA") </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>dcm Direction Cosine Matrix (ex: [BA]) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afb4d334f0581da523cf3cec8b92937b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_adjacency___list.html">Adjacency_List</a>&lt; std::string, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt; * RefFrames::get_ref_frame_graph </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -387,6 +396,79 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="adbaa182a36b43179fde968b3011444cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; RefFrames::get_transform_names </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a vector storing the name of all the reference frame transforms present in the graph </p>
+
+</div>
+</div>
+<a class="anchor" id="a80a6659e71f38b114edd22d34fecb32a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec RefFrames::get_transform_origin </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the origin of frame B expressed in frame A, [BA] </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">from</td><td>String designating the departure reference frame (ex : "A") </td></tr>
+    <tr><td class="paramname">to</td><td>String designating the arrival reference frame (ex: "B") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>origin Origin of frame B expressed in frame A(ex: [BA]) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="adc59e516d0d4a6b65e540231211f361a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec RefFrames::get_transform_origin </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>dcm_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the origin of frame B expressed in frame A, [BA] </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dcm_name</td><td>String designating the transform name in the same mannner as for a DCC frame (ex : "BA") </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>origin Origin of frame B expressed in frame A(ex: [BA]) </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a99bf1f3d78498195404fb49ea2238383"></a>
 <div class="memitem">
 <div class="memproto">
@@ -401,6 +483,63 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Loads reference frame context from a text file and fills up the corresponding fields of this </p>
+
+</div>
+</div>
+<a class="anchor" id="a1ef54d057ed2ec4ee5a19568e67a3346"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RefFrames::reset_ref_frame_graph </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resets the reference frame graph </p>
+
+</div>
+</div>
+<a class="anchor" id="acda1180c8954d7749e1c684fbb496313"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RefFrames::save_ref_frame_context </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>rotation_type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Save reference frame context to a text file </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>path to saved context </td></tr>
+    <tr><td class="paramname">String</td><td>indicating the rotation parametrization to use, among<ul>
+<li>"mrp"</li>
+<li>"quat"</li>
+<li>"euler321d"</li>
+<li>"euler321r"</li>
+<li>"euler313d"</li>
+<li>"euler313r" </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -453,7 +592,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="af526827b204dc560953d892b69c7d1cc"></a>
+<a class="anchor" id="ab81c6696091a1fb18e3c161d8fb975ca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -461,7 +600,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_adjacency___list.html">Adjacency_List</a>&lt;std::string, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt; RefFrames::ref_frame_graph</td>
+          <td class="memname"><a class="el" href="class_adjacency___list.html">Adjacency_List</a>&lt;std::string, <a class="el" href="class_ref_transform.html">RefTransform</a> * &gt;* RefFrames::ref_frame_graph</td>
         </tr>
       </table>
   </td>

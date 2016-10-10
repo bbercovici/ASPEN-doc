@@ -102,6 +102,12 @@ Functions</h2></td></tr>
 <tr class="separator:a3810c539df3c1f8256d8db637c7b2e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e03c392f01f340eb75a27a321cbc2d6"><td class="memItemLeft" align="right" valign="top">arma::mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a6e03c392f01f340eb75a27a321cbc2d6">euler313_to_dcm</a> (const arma::vec &amp;euler_angles)</td></tr>
 <tr class="separator:a6e03c392f01f340eb75a27a321cbc2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a655c933d6ad9ca814c3f218b50c516c4"><td class="memItemLeft" align="right" valign="top">arma::mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a655c933d6ad9ca814c3f218b50c516c4">euler321d_to_dcm</a> (arma::vec &amp;euler_angles)</td></tr>
+<tr class="separator:a655c933d6ad9ca814c3f218b50c516c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3bda257a877e605f61623cd627f128e"><td class="memItemLeft" align="right" valign="top">arma::mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#ab3bda257a877e605f61623cd627f128e">euler313d_to_dcm</a> (arma::vec &amp;euler_angles)</td></tr>
+<tr class="separator:ab3bda257a877e605f61623cd627f128e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b039c6e634fc29ea7f37f2552104e39"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a2b039c6e634fc29ea7f37f2552104e39">mrp_to_quat</a> (const arma::vec &amp;mrp)</td></tr>
+<tr class="separator:a2b039c6e634fc29ea7f37f2552104e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1098e10337dc8435284af2d11d4bc3e2"><td class="memItemLeft" align="right" valign="top">arma::mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a1098e10337dc8435284af2d11d4bc3e2">tilde</a> (const arma::vec &amp;x)</td></tr>
 <tr class="separator:a1098e10337dc8435284af2d11d4bc3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6db23ac51ef8afcdf08eedd232f606e0"><td class="memItemLeft" align="right" valign="top">arma::mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a6db23ac51ef8afcdf08eedd232f606e0">M1</a> (const double angle)</td></tr>
@@ -118,8 +124,124 @@ Functions</h2></td></tr>
 <tr class="separator:a039366a4bd9200d460360fa733143559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72dc06351c759b188aa2cf8aad30902d"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a72dc06351c759b188aa2cf8aad30902d">dcm_to_mrp</a> (const arma::mat &amp;dcm, const bool short_rot)</td></tr>
 <tr class="separator:a72dc06351c759b188aa2cf8aad30902d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20263e4d1c40285319167e0f3d109b52"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a20263e4d1c40285319167e0f3d109b52">dcm_to_euler321</a> (const arma::mat &amp;dcm)</td></tr>
+<tr class="separator:a20263e4d1c40285319167e0f3d109b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0472272a548e77ed64a3660c22ee5bd9"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a0472272a548e77ed64a3660c22ee5bd9">dcm_to_euler313</a> (const arma::mat &amp;dcm)</td></tr>
+<tr class="separator:a0472272a548e77ed64a3660c22ee5bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb6490fa4eb3c94f12339dc460e3453"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a0bb6490fa4eb3c94f12339dc460e3453">mrp_to_euler321</a> (const arma::vec &amp;sigma)</td></tr>
+<tr class="separator:a0bb6490fa4eb3c94f12339dc460e3453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22216ac09a4bf934609cdaf5c89535ba"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a22216ac09a4bf934609cdaf5c89535ba">mrp_to_euler313</a> (const arma::vec &amp;sigma)</td></tr>
+<tr class="separator:a22216ac09a4bf934609cdaf5c89535ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7cded058bf12246114c6c8b6efc14de"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#aa7cded058bf12246114c6c8b6efc14de">euler321_to_mrp</a> (const arma::vec &amp;euler_angles)</td></tr>
+<tr class="separator:aa7cded058bf12246114c6c8b6efc14de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f7540d2267085ad19691ed5a00b633c"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a2f7540d2267085ad19691ed5a00b633c">euler313_to_mrp</a> (const arma::vec &amp;euler_angles)</td></tr>
+<tr class="separator:a2f7540d2267085ad19691ed5a00b633c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926a156e5765099781d271f7e040f824"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a926a156e5765099781d271f7e040f824">euler321d_to_mrp</a> (arma::vec &amp;euler_angles)</td></tr>
+<tr class="separator:a926a156e5765099781d271f7e040f824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb47eac1bbe5d3e02186f1ffbbad8ab4"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#acb47eac1bbe5d3e02186f1ffbbad8ab4">euler313d_to_mrp</a> (arma::vec &amp;euler_angles)</td></tr>
+<tr class="separator:acb47eac1bbe5d3e02186f1ffbbad8ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18e92eb1b9e55bc5a16b6ffc90654074"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a18e92eb1b9e55bc5a16b6ffc90654074">dcm_to_euler321d</a> (const arma::mat &amp;dcm)</td></tr>
+<tr class="separator:a18e92eb1b9e55bc5a16b6ffc90654074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5a7b9e436573c8f27fa3c9684bc9cd1"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#ab5a7b9e436573c8f27fa3c9684bc9cd1">dcm_to_euler313d</a> (const arma::mat &amp;dcm)</td></tr>
+<tr class="separator:ab5a7b9e436573c8f27fa3c9684bc9cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c1fad7582bd45b7a875570046c72ea1"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#a9c1fad7582bd45b7a875570046c72ea1">mrp_to_euler313d</a> (const arma::vec &amp;sigma)</td></tr>
+<tr class="separator:a9c1fad7582bd45b7a875570046c72ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe73dc697a52dd0a1831d3fbef42958b"><td class="memItemLeft" align="right" valign="top">arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_rigid_body_kinematics_8cpp.html#abe73dc697a52dd0a1831d3fbef42958b">mrp_to_euler321d</a> (const arma::vec &amp;sigma)</td></tr>
+<tr class="separator:abe73dc697a52dd0a1831d3fbef42958b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a0472272a548e77ed64a3660c22ee5bd9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec dcm_to_euler313 </td>
+          <td>(</td>
+          <td class="paramtype">const arma::mat &amp;&#160;</td>
+          <td class="paramname"><em>dcm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a DCM to the corresponding set of Euler angles </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>DCM </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>angles Sequence of 313 Euler angles angles [right ascension,inclination,longitude] </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab5a7b9e436573c8f27fa3c9684bc9cd1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec dcm_to_euler313d </td>
+          <td>(</td>
+          <td class="paramtype">const arma::mat &amp;&#160;</td>
+          <td class="paramname"><em>dcm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a DCM to the corresponding set of Euler angles in degrees </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>DCM </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>angles Sequence of 313 Euler angles angles [right ascension,inclination,longitude] </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a20263e4d1c40285319167e0f3d109b52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec dcm_to_euler321 </td>
+          <td>(</td>
+          <td class="paramtype">const arma::mat &amp;&#160;</td>
+          <td class="paramname"><em>dcm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a DCM to the corresponding set of Euler angles </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>DCM </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>angles Sequence of 321 Euler angles angles [yaw,pitch,roll] </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a18e92eb1b9e55bc5a16b6ffc90654074"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec dcm_to_euler321d </td>
+          <td>(</td>
+          <td class="paramtype">const arma::mat &amp;&#160;</td>
+          <td class="paramname"><em>dcm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a DCM to the corresponding set of Euler angles in degrees </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>DCM </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>angles Sequence of 321 Euler angles angles [yaw,pitch,roll] </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a72dc06351c759b188aa2cf8aad30902d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -227,6 +349,75 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2f7540d2267085ad19691ed5a00b633c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec euler313_to_mrp </td>
+          <td>(</td>
+          <td class="paramtype">const arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>euler_angles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a set of 313 Euler angles to mrp </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">euler_angles</td><td>313 sequence of Euler angles (rad) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mrp MRP set </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab3bda257a877e605f61623cd627f128e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::mat euler313d_to_dcm </td>
+          <td>(</td>
+          <td class="paramtype">arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>euler_angles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a set of 313 Euler angles to DCM </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">euler_angles</td><td>313 sequence of Euler angles (deg) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dcm DCM </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="acb47eac1bbe5d3e02186f1ffbbad8ab4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec euler313d_to_mrp </td>
+          <td>(</td>
+          <td class="paramtype">arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>euler_angles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a set of 313 Euler angles to mrp </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">euler_angles</td><td>313 sequence of Euler angles (deg) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mrp MRP set </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a3810c539df3c1f8256d8db637c7b2e25"></a>
 <div class="memitem">
 <div class="memproto">
@@ -247,6 +438,89 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>dcm DCM </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa7cded058bf12246114c6c8b6efc14de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec euler321_to_mrp </td>
+          <td>(</td>
+          <td class="paramtype">const arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>euler_angles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a set of 321 Euler angles to mrp </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">euler_angles</td><td>321 sequence of Euler angles (rad) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mrp MRP set </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a655c933d6ad9ca814c3f218b50c516c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::mat euler321d_to_dcm </td>
+          <td>(</td>
+          <td class="paramtype">arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>euler_angles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a set of 321 Euler angles to DCM </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">euler_angles</td><td>321 sequence of Euler angles (deg) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dcm DCM</dd></dl>
+<p>Converts a set of 321 Euler angles expressed in degrees to DCM </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">euler_angles</td><td>321 sequence of Euler angles (deg) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dcm DCM </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a926a156e5765099781d271f7e040f824"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec euler321d_to_mrp </td>
+          <td>(</td>
+          <td class="paramtype">arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>euler_angles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a set of 321 Euler angles to mrp </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">euler_angles</td><td>321 sequence of Euler angles (deg) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mrp MRP set</dd></dl>
+<p>Converts a set of 321 Euler angles expressed in degrees to mrp </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">euler_angles</td><td>321 sequence of Euler angles (deg) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mrp MRP set </dd></dl>
 
 </div>
 </div>
@@ -360,6 +634,121 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>dcm DCM matrix </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a22216ac09a4bf934609cdaf5c89535ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec mrp_to_euler313 </td>
+          <td>(</td>
+          <td class="paramtype">const arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>sigma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a MRP to the corresponding set of Euler angles </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sigma</td><td>MRP vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>angles Sequence of 313 Euler angles angles [right ascension,inclination,longitude] </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9c1fad7582bd45b7a875570046c72ea1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec mrp_to_euler313d </td>
+          <td>(</td>
+          <td class="paramtype">const arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>sigma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a MRP to the corresponding set of Euler angles in degrees </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sigma</td><td>MRP vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>angles Sequence of 313 Euler angles angles [right ascension,inclination,longitude] </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0bb6490fa4eb3c94f12339dc460e3453"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec mrp_to_euler321 </td>
+          <td>(</td>
+          <td class="paramtype">const arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>sigma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a MRP to the corresponding set of Euler angles </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sigma</td><td>MRP vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>angles Sequence of 321 Euler angles angles [right ascension,inclination,longitude] </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abe73dc697a52dd0a1831d3fbef42958b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec mrp_to_euler321d </td>
+          <td>(</td>
+          <td class="paramtype">const arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>sigma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a MRP to the corresponding set of Euler angles in degrees </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sigma</td><td>MRP vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>angles Sequence of 321 Euler angles angles [right ascension,inclination,longitude] </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2b039c6e634fc29ea7f37f2552104e39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">arma::vec mrp_to_quat </td>
+          <td>(</td>
+          <td class="paramtype">const arma::vec &amp;&#160;</td>
+          <td class="paramname"><em>mrp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts MRP to quaternions </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sigma</td><td>MRP vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>quat Unit quaternion </dd></dl>
 
 </div>
 </div>

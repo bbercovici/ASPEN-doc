@@ -112,6 +112,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aee08384f8f7f7d745d2fc6ac73e2829c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1666473b64a32a63a09f810f385a6b25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_frames.html">RefFrames</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a1666473b64a32a63a09f810f385a6b25">get_ref_frames</a> ()</td></tr>
 <tr class="separator:a1666473b64a32a63a09f810f385a6b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa7ec8f709f5a0e32006b2fb25301135"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#afa7ec8f709f5a0e32006b2fb25301135">set_action_status</a> (bool enabled, const std::string &amp;menu_name, const std::string &amp;action_name)</td></tr>
+<tr class="separator:afa7ec8f709f5a0e32006b2fb25301135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ee8b842701cf7499f1454cfe21e3c16"><td class="memItemLeft" align="right" valign="top">std::vector&lt; vtkSmartPointer&lt; vtkAxesActor &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a8ee8b842701cf7499f1454cfe21e3c16">get_ref_frame_actors</a> ()</td></tr>
+<tr class="separator:a8ee8b842701cf7499f1454cfe21e3c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba5bdcafeaeda79f462326f68944bbb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; vtkSmartPointer&lt; vtkTransform &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a6ba5bdcafeaeda79f462326f68944bbb">get_vtk_transforms_vector</a> ()</td></tr>
+<tr class="separator:a6ba5bdcafeaeda79f462326f68944bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -155,6 +161,22 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a8ee8b842701cf7499f1454cfe21e3c16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; vtkSmartPointer&lt; vtkAxesActor &gt; &gt; * Mainwindow::get_ref_frame_actors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Accessor to reference frame actors </p>
+
+</div>
+</div>
 <a class="anchor" id="a1666473b64a32a63a09f810f385a6b25"></a>
 <div class="memitem">
 <div class="memproto">
@@ -184,6 +206,62 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Accessor to window renderer </p><dl class="section return"><dt>Returns</dt><dd>renderer </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6ba5bdcafeaeda79f462326f68944bbb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; vtkSmartPointer&lt; vtkTransform &gt; &gt; * Mainwindow::get_vtk_transforms_vector </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Accessor to the transform pairs </p>
+
+</div>
+</div>
+<a class="anchor" id="afa7ec8f709f5a0e32006b2fb25301135"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mainwindow::set_action_status </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>menu_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>action_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Enable/Disables an action in the GUI </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enabled</td><td>Status the targeted action will be set to </td></tr>
+    <tr><td class="paramname">menu_name</td><td>String storing the name of the menu containing the targeted action </td></tr>
+    <tr><td class="paramname">action_name</td><td>String storing the name of the targeted action </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
