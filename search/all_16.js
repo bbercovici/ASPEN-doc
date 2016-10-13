@@ -22,9 +22,11 @@ var searchData=
   ['variables_5fd_2ejs',['variables_d.js',['../variables__d_8js.html',1,'']]],
   ['variables_5fe_2ejs',['variables_e.js',['../variables__e_8js.html',1,'']]],
   ['variables_5ff_2ejs',['variables_f.js',['../variables__f_8js.html',1,'']]],
-  ['vertex',['vertex',['../struct_adjacency___list_1_1vertex.html#ace630ecbe09f25c4f8db743fe67374c8',1,'Adjacency_List::vertex']]],
   ['vertex',['vertex',['../struct_adjacency___list_1_1vertex.html',1,'Adjacency_List']]],
+  ['vertex',['vertex',['../struct_adjacency___list_1_1vertex.html#ace630ecbe09f25c4f8db743fe67374c8',1,'Adjacency_List::vertex']]],
   ['vertex_5ftype',['vertex_type',['../class_adjacency___list.html#a36f797555285f40b0320eb745774e127',1,'Adjacency_List']]],
   ['vertexexists',['vertexexists',['../class_adjacency___list.html#a5fef72d4ecb4cfa5438a653e1e58e91b',1,'Adjacency_List']]],
-  ['vertexmap',['vertexmap',['../class_adjacency___list.html#a5f1ff6746e887afb9fd3eb33f0692e84',1,'Adjacency_List']]]
+  ['vertexmap',['vertexmap',['../class_adjacency___list.html#a5f1ff6746e887afb9fd3eb33f0692e84',1,'Adjacency_List']]],
+  ['vertical_5fresolution_5fcombobox',['vertical_resolution_combobox',['../class_create_instrument_widget.html#abe354b4aae1197e609e2f049c57849b2',1,'CreateInstrumentWidget']]],
+  ['vertical_5fresolution_5flabel',['vertical_resolution_label',['../class_create_instrument_widget.html#a2b203cc8a52ce10503bd740785f28505',1,'CreateInstrumentWidget']]]
 ];

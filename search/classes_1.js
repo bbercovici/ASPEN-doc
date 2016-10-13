@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mainwindow',['Mainwindow',['../class_mainwindow.html',1,'']]]
+  ['createinstrumentwidget',['CreateInstrumentWidget',['../class_create_instrument_widget.html',1,'']]]
 ];

@@ -9,5 +9,7 @@ var searchData=
   ['cmakeccompilerid_2ec',['CMakeCCompilerId.c',['../_c_make_c_compiler_id_8c.html',1,'']]],
   ['cmakecxxcompilerid_2ecpp',['CMakeCXXCompilerId.cpp',['../_c_make_c_x_x_compiler_id_8cpp.html',1,'']]],
   ['cmakelists_2etxt',['CMakeLists.txt',['../_c_make_lists_8txt.html',1,'']]],
-  ['cmakerulehashes_2etxt',['CMakeRuleHashes.txt',['../_c_make_rule_hashes_8txt.html',1,'']]]
+  ['cmakerulehashes_2etxt',['CMakeRuleHashes.txt',['../_c_make_rule_hashes_8txt.html',1,'']]],
+  ['createinstrumentwidget_2ecpp',['CreateInstrumentWidget.cpp',['../_create_instrument_widget_8cpp.html',1,'']]],
+  ['createinstrumentwidget_2ehpp',['CreateInstrumentWidget.hpp',['../_create_instrument_widget_8hpp.html',1,'']]]
 ];

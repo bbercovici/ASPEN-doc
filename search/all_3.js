@@ -10,6 +10,7 @@ var searchData=
   ['classes_5f2_2ejs',['classes_2.js',['../classes__2_8js.html',1,'']]],
   ['classes_5f3_2ejs',['classes_3.js',['../classes__3_8js.html',1,'']]],
   ['classes_5f4_2ejs',['classes_4.js',['../classes__4_8js.html',1,'']]],
+  ['close',['close',['../class_create_instrument_widget.html#a963a49cc6423d88052b4c1b283df8e2a',1,'CreateInstrumentWidget::close()'],['../class_ref_frame_graph_properties_widget.html#a5fea5aca9528c035df50041c5f9804e9',1,'RefFrameGraphPropertiesWidget::close()'],['../class_ref_transform_widget.html#a184d17efa8715b4760a4f8849d9557cf',1,'RefTransformWidget::close()'],['../class_shape_lookup_widget.html#ad1eeed4a5b2c4f92d133b7726a12f59a',1,'ShapeLookupWidget::close()']]],
   ['cmakecache_2etxt',['CMakeCache.txt',['../_c_make_cache_8txt.html',1,'']]],
   ['cmakeccompilerid_2ec',['CMakeCCompilerId.c',['../_c_make_c_compiler_id_8c.html',1,'']]],
   ['cmakecxxcompilerid_2ecpp',['CMakeCXXCompilerId.cpp',['../_c_make_c_x_x_compiler_id_8cpp.html',1,'']]],
@@ -19,6 +20,9 @@ var searchData=
   ['convert',['convert',['../class_ref_frames.html#ae35fb19dc34dc64175b92a3bd773ede2',1,'RefFrames']]],
   ['converttoid',['convertToId',['../search_8js.html#a196a29bd5a5ee7cd5b485e0753a49e57',1,'search.js']]],
   ['cpp',['cpp',['../all__11_8js.html#a5810a698373f89ab6d1c012552e6842c',1,'cpp():&#160;all_11.js'],['../all__14_8js.html#a012a4dff78f866b486b467ed5b0e33a1',1,'cpp():&#160;all_14.js'],['../all__4_8js.html#a012a4dff78f866b486b467ed5b0e33a1',1,'cpp():&#160;all_4.js'],['../all__5_8js.html#a012a4dff78f866b486b467ed5b0e33a1',1,'cpp():&#160;all_5.js'],['../all__d_8js.html#a5810a698373f89ab6d1c012552e6842c',1,'cpp():&#160;all_d.js'],['../defines__5_8js.html#af66130d3f46f2344b019905abc4ade3a',1,'cpp():&#160;defines_5.js'],['../functions__3_8js.html#a012a4dff78f866b486b467ed5b0e33a1',1,'cpp():&#160;functions_3.js'],['../functions__4_8js.html#a012a4dff78f866b486b467ed5b0e33a1',1,'cpp():&#160;functions_4.js'],['../functions__9_8js.html#a5810a698373f89ab6d1c012552e6842c',1,'cpp():&#160;functions_9.js'],['../functions__b_8js.html#a012a4dff78f866b486b467ed5b0e33a1',1,'cpp():&#160;functions_b.js'],['../functions__e_8js.html#a012a4dff78f866b486b467ed5b0e33a1',1,'cpp():&#160;functions_e.js']]],
+  ['createinstrumentwidget',['CreateInstrumentWidget',['../class_create_instrument_widget.html',1,'CreateInstrumentWidget'],['../class_create_instrument_widget.html#af18d1195f8918f8c3f9157540470fb9b',1,'CreateInstrumentWidget::CreateInstrumentWidget()']]],
+  ['createinstrumentwidget_2ecpp',['CreateInstrumentWidget.cpp',['../_create_instrument_widget_8cpp.html',1,'']]],
+  ['createinstrumentwidget_2ehpp',['CreateInstrumentWidget.hpp',['../_create_instrument_widget_8hpp.html',1,'']]],
   ['createresults',['createResults',['../search_8js.html#a6b2c651120de3ed1dcf0d85341d51895',1,'search.js']]],
   ['css',['css',['../jquery_8js.html#a89ad527fcd82c01ebb587332f5b4fcd4',1,'jquery.js']]],
   ['curcss',['curCSS',['../jquery_8js.html#a88b21f8ba3af86d6981b1da520ece33b',1,'jquery.js']]]

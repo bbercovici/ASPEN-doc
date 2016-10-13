@@ -114,10 +114,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1666473b64a32a63a09f810f385a6b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa7ec8f709f5a0e32006b2fb25301135"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#afa7ec8f709f5a0e32006b2fb25301135">set_action_status</a> (bool enabled, const std::string &amp;menu_name, const std::string &amp;action_name)</td></tr>
 <tr class="separator:afa7ec8f709f5a0e32006b2fb25301135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb949ec0505dc0e1e5b8f00c0ac81ee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_lidar.html">Lidar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#abb949ec0505dc0e1e5b8f00c0ac81ee2">get_instrument</a> ()</td></tr>
+<tr class="separator:abb949ec0505dc0e1e5b8f00c0ac81ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a507a1bafdb84f44d6fe7f63cf8c8c412"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a507a1bafdb84f44d6fe7f63cf8c8c412">set_instrument</a> (<a class="el" href="class_lidar.html">Lidar</a> *instrument)</td></tr>
+<tr class="separator:a507a1bafdb84f44d6fe7f63cf8c8c412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ee8b842701cf7499f1454cfe21e3c16"><td class="memItemLeft" align="right" valign="top">std::vector&lt; vtkSmartPointer&lt; vtkAxesActor &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a8ee8b842701cf7499f1454cfe21e3c16">get_ref_frame_actors</a> ()</td></tr>
 <tr class="separator:a8ee8b842701cf7499f1454cfe21e3c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ba5bdcafeaeda79f462326f68944bbb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; vtkSmartPointer&lt; vtkTransform &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a6ba5bdcafeaeda79f462326f68944bbb">get_vtk_transforms_vector</a> ()</td></tr>
 <tr class="separator:a6ba5bdcafeaeda79f462326f68944bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d19d559394354d5946153f10a729793"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; std::string, vtkSmartPointer&lt; vtkActor &gt; &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a0d19d559394354d5946153f10a729793">get_loaded_shape_models</a> ()</td></tr>
+<tr class="separator:a0d19d559394354d5946153f10a729793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -161,6 +167,38 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="abb949ec0505dc0e1e5b8f00c0ac81ee2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_lidar.html">Lidar</a> * Mainwindow::get_instrument </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Accessor to the current instrument </p>
+
+</div>
+</div>
+<a class="anchor" id="a0d19d559394354d5946153f10a729793"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::pair&lt; std::string, vtkSmartPointer&lt; vtkActor &gt; &gt; &gt; * Mainwindow::get_loaded_shape_models </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Accessor to loaded_shape_models </p>
+
+</div>
+</div>
 <a class="anchor" id="a8ee8b842701cf7499f1454cfe21e3c16"></a>
 <div class="memitem">
 <div class="memproto">
@@ -262,6 +300,23 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a507a1bafdb84f44d6fe7f63cf8c8c412"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mainwindow::set_instrument </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_lidar.html">Lidar</a> *&#160;</td>
+          <td class="paramname"><em>instrument</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Setter to the current instrument </p>
 
 </div>
 </div>
