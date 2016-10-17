@@ -10,6 +10,7 @@ var searchData=
   ['info_5flanguage_5fdialect_5fdefault',['info_language_dialect_default',['../_c_make_c_compiler_id_8c.html#a1ce162bad2fe6966ac8b33cc19e120b8',1,'info_language_dialect_default():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a1ce162bad2fe6966ac8b33cc19e120b8',1,'info_language_dialect_default():&#160;CMakeCXXCompilerId.cpp']]],
   ['info_5fplatform',['info_platform',['../_c_make_c_compiler_id_8c.html#a2321403dee54ee23f0c2fa849c60f7d4',1,'info_platform():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a2321403dee54ee23f0c2fa849c60f7d4',1,'info_platform():&#160;CMakeCXXCompilerId.cpp']]],
   ['init_5fsearch',['init_search',['../search_8js.html#ae95ec7d5d450d0a8d6928a594798aaf4',1,'search.js']]],
+  ['insert_5freference_5fframes',['insert_reference_frames',['../class_ref_frames.html#ad4ce27fbbf625548f4f3e51b61edc915',1,'RefFrames']]],
   ['instrument_5ftype_5fcombobox',['instrument_type_combobox',['../class_create_instrument_widget.html#acf1615e612e5cd10435622b8ea08c8b1',1,'CreateInstrumentWidget']]],
   ['instrument_5ftype_5flabel',['instrument_type_label',['../class_create_instrument_widget.html#a8aa767b0a6eaec1406b38690d182dea9',1,'CreateInstrumentWidget']]],
   ['instrument_5ftype_5flayout',['instrument_type_layout',['../class_create_instrument_widget.html#af5ed277fa4cf19b114cb47f1fa0d1c78',1,'CreateInstrumentWidget']]],

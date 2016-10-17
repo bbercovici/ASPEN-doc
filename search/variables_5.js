@@ -1,25 +1,5 @@
 var searchData=
 [
-  ['features',['features',['../feature__tests_8c.html#a1582568e32f689337602a16bf8a5bff0',1,'features():&#160;feature_tests.c'],['../feature__tests_8cxx.html#a1582568e32f689337602a16bf8a5bff0',1,'features():&#160;feature_tests.cxx']]],
-  ['field_5fof_5fview_5fcombobox',['field_of_view_combobox',['../class_create_instrument_widget.html#a37ba6bff31f0afe105a8a6b8ea0e8aaa',1,'CreateInstrumentWidget']]],
-  ['field_5fof_5fview_5flabel',['field_of_view_label',['../class_create_instrument_widget.html#af1a08336a055a5a66bdeb1f595e4a283',1,'CreateInstrumentWidget']]],
-  ['field_5fof_5fview_5flayout',['field_of_view_layout',['../class_create_instrument_widget.html#a10c4d838306233b1c78ee9ce91c74a7f',1,'CreateInstrumentWidget']]],
-  ['field_5fof_5fview_5fwidget',['field_of_view_widget',['../class_create_instrument_widget.html#ab62c54b6e5d9ac5e3e50a004f62817a8',1,'CreateInstrumentWidget']]],
-  ['filesystem',['filesystem',['../_c_make_cache_8txt.html#a68d838b8eee48cdcf3d1a1cb35e3cb64',1,'CMakeCache.txt']]],
-  ['first_5frot_5flineedit',['first_rot_lineedit',['../class_ref_transform_widget.html#a7bd3ac9fe3b1b8c679e96d3b48d26559',1,'RefTransformWidget']]],
-  ['first_5frotation_5ftitle',['first_rotation_title',['../class_ref_transform_widget.html#acf27c6c63ff994f6f5012603846cf41f',1,'RefTransformWidget']]],
-  ['focal_5flength',['focal_length',['../class_flash_lidar.html#ae49d3a2a0ab49954a751cc09b3a976e2',1,'FlashLidar']]],
-  ['focal_5flength_5flabel',['focal_length_label',['../class_create_instrument_widget.html#a8f89babd96b067c45c0c56c6246440d5',1,'CreateInstrumentWidget']]],
-  ['focal_5flength_5flayout',['focal_length_layout',['../class_create_instrument_widget.html#a549ca495dcc3aab96239820de523c4eb',1,'CreateInstrumentWidget']]],
-  ['focal_5flength_5fqlineedit',['focal_length_qlineedit',['../class_create_instrument_widget.html#ae1f2dbcca85353ba6fd624aca1b487ce',1,'CreateInstrumentWidget']]],
-  ['focal_5flength_5fwidget',['focal_length_widget',['../class_create_instrument_widget.html#a221ca54e571a718d6a69baef158a06d6',1,'CreateInstrumentWidget']]],
-  ['focal_5fplane',['focal_plane',['../class_flash_lidar.html#a18bbb03819ac688c96e11009a4372def',1,'FlashLidar']]],
-  ['focal_5fpoint_5fframe_5fcombobox',['focal_point_frame_combobox',['../class_create_instrument_widget.html#a352748679893611ea4f7dad84b381c7b',1,'CreateInstrumentWidget']]],
-  ['focal_5fpoint_5fframe_5flabel',['focal_point_frame_label',['../class_create_instrument_widget.html#a6705c55e6099a4be76fa56190bf5b706',1,'CreateInstrumentWidget']]],
-  ['focal_5fpoint_5fframe_5flayout',['focal_point_frame_layout',['../class_create_instrument_widget.html#a918abb4464df4c8c38ab70422ecb26f1',1,'CreateInstrumentWidget']]],
-  ['focal_5fpoint_5fframe_5fwidget',['focal_point_frame_widget',['../class_create_instrument_widget.html#a987ac71f4d9e8d0fc9a9419539d02ead',1,'CreateInstrumentWidget']]],
-  ['font_5fsize_5fcombobox',['font_size_combobox',['../class_ref_frame_graph_properties_widget.html#aa02c8128e13428204aac3fcf62e989e2',1,'RefFrameGraphPropertiesWidget']]],
-  ['font_5fsize_5flabel',['font_size_label',['../class_ref_frame_graph_properties_widget.html#a0587f060db0f10714fa948bbf8060556',1,'RefFrameGraphPropertiesWidget']]],
-  ['font_5fsize_5flayout',['font_size_layout',['../class_ref_frame_graph_properties_widget.html#a21e8040b147687fc94f980fe6c03179a',1,'RefFrameGraphPropertiesWidget']]],
-  ['font_5fsize_5fwidget',['font_size_widget',['../class_ref_frame_graph_properties_widget.html#a1a8de30a4f44c94632b44eb24b22ca0e',1,'RefFrameGraphPropertiesWidget']]]
+  ['editinstrumentact',['editInstrumentAct',['../class_mainwindow.html#ae767a1c1c8b2a4a5d4aa69b62361db9a',1,'Mainwindow']]],
+  ['editrefframepropertyact',['editRefFramePropertyAct',['../class_mainwindow.html#aa2452fe036a0015e704177cb3e10a383',1,'Mainwindow']]]
 ];

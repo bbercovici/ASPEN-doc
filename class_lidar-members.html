@@ -90,9 +90,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>This is the complete list of members for <a class="el" href="class_lidar.html">Lidar</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_lidar.html#a648c952053150cbb2e1537a61c9a472a">Lidar</a>(RefFrames *ref_frames)</td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_lidar.html#a64796a9b3efb0761f18216b00ab9cea0">ref_frames</a></td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_lidar.html#a5291a8b7d5ab603bf3b4b67d7287fa67">~Lidar</a>()</td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_lidar.html#a2d6f9d4f75d0cd70629feb37381014e0">get_focal_plane</a>()=0</td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_lidar.html#a1bab16dabd1fb5fad28bc96aaba93663">get_pixel_coordinates</a>(int row, int column) const  =0</td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_lidar.html#a2a04b3096d4352cb79c0916abd97f9ba">get_pixel_size</a>() const  =0</td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_lidar.html#a9ab620afbb29afd01a7195804c631db3">Lidar</a>(RefFrames *ref_frames, vtkPolyData *target_polydata)</td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_lidar.html#a64796a9b3efb0761f18216b00ab9cea0">ref_frames</a></td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_lidar.html#af60fd727b0cd4c0280b08e3dad0da1b3">target_shape_obb_tree</a></td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_lidar.html#a5291a8b7d5ab603bf3b4b67d7287fa67">~Lidar</a>()</td><td class="entry"><a class="el" href="class_lidar.html">Lidar</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

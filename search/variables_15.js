@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['wl',['Wl',['../link_8txt.html#a73f28aa4812044a173079c3aee090cd0',1,'link.txt']]],
-  ['wrapping_5flayout',['wrapping_layout',['../class_ref_frame_graph_properties_widget.html#a7bca06ae929237c5c8c95c9ec0c202d5',1,'RefFrameGraphPropertiesWidget']]]
+  ['vertical_5fresolution_5fcombobox',['vertical_resolution_combobox',['../class_create_instrument_widget.html#abe354b4aae1197e609e2f049c57849b2',1,'CreateInstrumentWidget']]],
+  ['vertical_5fresolution_5flabel',['vertical_resolution_label',['../class_create_instrument_widget.html#a2b203cc8a52ce10503bd740785f28505',1,'CreateInstrumentWidget']]]
 ];

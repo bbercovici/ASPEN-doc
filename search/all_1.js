@@ -1,7 +1,6 @@
 var searchData=
 [
   ['ad',['aD',['../jquery_8js.html#ad223f5fba68c41c1236671ac5c5b0fcb',1,'jquery.js']]],
-  ['add_5fconnectivity',['add_connectivity',['../class_ref_frames.html#a0264931fcdf5d4a1e766153ef3df4594',1,'RefFrames']]],
   ['add_5fframe',['add_frame',['../class_ref_frames.html#aebecb71774e223fd1a2e02b0be4cf37b',1,'RefFrames']]],
   ['add_5fshape_5flayout',['add_shape_layout',['../class_shape_lookup_widget.html#a71cb8376cba3490d692931b4663a6ca8',1,'ShapeLookupWidget']]],
   ['add_5fshape_5fmodel_5fbutton',['add_shape_model_button',['../class_shape_lookup_widget.html#af887ee70d08cdc26463aef01f3c81d45',1,'ShapeLookupWidget']]],

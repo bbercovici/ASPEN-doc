@@ -88,7 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_lidar-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Lidar Class Reference</div>  </div>
+<div class="title">Lidar Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -105,18 +105,26 @@ Inheritance diagram for Lidar:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a648c952053150cbb2e1537a61c9a472a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#a648c952053150cbb2e1537a61c9a472a">Lidar</a> (<a class="el" href="class_ref_frames.html">RefFrames</a> *<a class="el" href="class_lidar.html#a64796a9b3efb0761f18216b00ab9cea0">ref_frames</a>)</td></tr>
-<tr class="separator:a648c952053150cbb2e1537a61c9a472a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5291a8b7d5ab603bf3b4b67d7287fa67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#a5291a8b7d5ab603bf3b4b67d7287fa67">~Lidar</a> ()</td></tr>
+<tr class="memitem:a9ab620afbb29afd01a7195804c631db3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#a9ab620afbb29afd01a7195804c631db3">Lidar</a> (<a class="el" href="class_ref_frames.html">RefFrames</a> *<a class="el" href="class_lidar.html#a64796a9b3efb0761f18216b00ab9cea0">ref_frames</a>, vtkPolyData *target_polydata)</td></tr>
+<tr class="separator:a9ab620afbb29afd01a7195804c631db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5291a8b7d5ab603bf3b4b67d7287fa67"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#a5291a8b7d5ab603bf3b4b67d7287fa67">~Lidar</a> ()</td></tr>
 <tr class="separator:a5291a8b7d5ab603bf3b4b67d7287fa67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bab16dabd1fb5fad28bc96aaba93663"><td class="memItemLeft" align="right" valign="top">virtual arma::vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#a1bab16dabd1fb5fad28bc96aaba93663">get_pixel_coordinates</a> (int row, int column) const  =0</td></tr>
+<tr class="separator:a1bab16dabd1fb5fad28bc96aaba93663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6f9d4f75d0cd70629feb37381014e0"><td class="memItemLeft" align="right" valign="top">virtual arma::mat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#a2d6f9d4f75d0cd70629feb37381014e0">get_focal_plane</a> ()=0</td></tr>
+<tr class="separator:a2d6f9d4f75d0cd70629feb37381014e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a04b3096d4352cb79c0916abd97f9ba"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#a2a04b3096d4352cb79c0916abd97f9ba">get_pixel_size</a> () const  =0</td></tr>
+<tr class="separator:a2a04b3096d4352cb79c0916abd97f9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a64796a9b3efb0761f18216b00ab9cea0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_frames.html">RefFrames</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#a64796a9b3efb0761f18216b00ab9cea0">ref_frames</a></td></tr>
 <tr class="separator:a64796a9b3efb0761f18216b00ab9cea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af60fd727b0cd4c0280b08e3dad0da1b3"><td class="memItemLeft" align="right" valign="top">vtkSmartPointer&lt; vtkOBBTree &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#af60fd727b0cd4c0280b08e3dad0da1b3">target_shape_obb_tree</a></td></tr>
+<tr class="separator:af60fd727b0cd4c0280b08e3dad0da1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a648c952053150cbb2e1537a61c9a472a"></a>
+<a class="anchor" id="a9ab620afbb29afd01a7195804c631db3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -124,8 +132,18 @@ Protected Attributes</h2></td></tr>
           <td class="memname">Lidar::Lidar </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ref_frames.html">RefFrames</a> *&#160;</td>
-          <td class="paramname"><em>ref_frames</em></td><td>)</td>
+          <td class="paramname"><em>ref_frames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">vtkPolyData *&#160;</td>
+          <td class="paramname"><em>target_polydata</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -135,6 +153,9 @@ Protected Attributes</h2></td></tr>
 <a class="anchor" id="a5291a8b7d5ab603bf3b4b67d7287fa67"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Lidar::~Lidar </td>
@@ -143,7 +164,99 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a2d6f9d4f75d0cd70629feb37381014e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual arma::mat* Lidar::get_focal_plane </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_flash_lidar.html#a10b3d80a81ccfd54b85c496c612187a4">FlashLidar</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1bab16dabd1fb5fad28bc96aaba93663"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual arma::vec Lidar::get_pixel_coordinates </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>column</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_flash_lidar.html#aaa4269a30a41da2916cc00f0f74b4b2d">FlashLidar</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2a04b3096d4352cb79c0916abd97f9ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double Lidar::get_pixel_size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_flash_lidar.html#aeb338552a7749ca92dbf3475c177f1f0">FlashLidar</a>.</p>
 
 </div>
 </div>
@@ -157,6 +270,26 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_ref_frames.html">RefFrames</a>* Lidar::ref_frames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af60fd727b0cd4c0280b08e3dad0da1b3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vtkSmartPointer&lt;vtkOBBTree&gt; Lidar::target_shape_obb_tree</td>
         </tr>
       </table>
   </td>

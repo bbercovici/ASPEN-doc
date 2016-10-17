@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_mainwindow-members.html">List of all members</a>  </div>
@@ -102,6 +103,11 @@ Inheritance diagram for Mainwindow:</div>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:ace1445d3e06e8b5d7cf71229d73688fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#ace1445d3e06e8b5d7cf71229d73688fc">remove_instrument</a> ()</td></tr>
+<tr class="separator:ace1445d3e06e8b5d7cf71229d73688fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ca049b84f17c87a57b53e418b1c40e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a9ca049b84f17c87a57b53e418b1c40e3">Mainwindow</a> ()</td></tr>
@@ -112,18 +118,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aee08384f8f7f7d745d2fc6ac73e2829c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1666473b64a32a63a09f810f385a6b25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_frames.html">RefFrames</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a1666473b64a32a63a09f810f385a6b25">get_ref_frames</a> ()</td></tr>
 <tr class="separator:a1666473b64a32a63a09f810f385a6b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa7ec8f709f5a0e32006b2fb25301135"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#afa7ec8f709f5a0e32006b2fb25301135">set_action_status</a> (bool enabled, const std::string &amp;menu_name, const std::string &amp;action_name)</td></tr>
-<tr class="separator:afa7ec8f709f5a0e32006b2fb25301135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c15f201453bda204f4ffc2a420428c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_transform.html">RefTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a3c15f201453bda204f4ffc2a420428c9">create_reference_frame</a> (std::string frame_name, std::string parent_frame_name, double focal_length=0)</td></tr>
+<tr class="separator:a3c15f201453bda204f4ffc2a420428c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15d6f31e810051cdfbe188e9701dd32a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a15d6f31e810051cdfbe188e9701dd32a">set_action_status</a> (bool enabled, QAction *action)</td></tr>
+<tr class="separator:a15d6f31e810051cdfbe188e9701dd32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb949ec0505dc0e1e5b8f00c0ac81ee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_lidar.html">Lidar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#abb949ec0505dc0e1e5b8f00c0ac81ee2">get_instrument</a> ()</td></tr>
 <tr class="separator:abb949ec0505dc0e1e5b8f00c0ac81ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a507a1bafdb84f44d6fe7f63cf8c8c412"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a507a1bafdb84f44d6fe7f63cf8c8c412">set_instrument</a> (<a class="el" href="class_lidar.html">Lidar</a> *instrument)</td></tr>
 <tr class="separator:a507a1bafdb84f44d6fe7f63cf8c8c412"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ee8b842701cf7499f1454cfe21e3c16"><td class="memItemLeft" align="right" valign="top">std::vector&lt; vtkSmartPointer&lt; vtkAxesActor &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a8ee8b842701cf7499f1454cfe21e3c16">get_ref_frame_actors</a> ()</td></tr>
-<tr class="separator:a8ee8b842701cf7499f1454cfe21e3c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ba5bdcafeaeda79f462326f68944bbb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; vtkSmartPointer&lt; vtkTransform &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a6ba5bdcafeaeda79f462326f68944bbb">get_vtk_transforms_vector</a> ()</td></tr>
-<tr class="separator:a6ba5bdcafeaeda79f462326f68944bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d19d559394354d5946153f10a729793"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; std::string, vtkSmartPointer&lt; vtkActor &gt; &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a0d19d559394354d5946153f10a729793">get_loaded_shape_models</a> ()</td></tr>
-<tr class="separator:a0d19d559394354d5946153f10a729793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0d787481375d6f45c0e2b8ee316dc42"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, vtkSmartPointer&lt; vtkAxesActor &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#ab0d787481375d6f45c0e2b8ee316dc42">get_ref_frame_actors</a> ()</td></tr>
+<tr class="separator:ab0d787481375d6f45c0e2b8ee316dc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4099c0bf81e6b890cccc3f1cb58c3518"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, vtkSmartPointer&lt; vtkTransform &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a4099c0bf81e6b890cccc3f1cb58c3518">get_vtk_transforms</a> ()</td></tr>
+<tr class="separator:a4099c0bf81e6b890cccc3f1cb58c3518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66336f1da1fae2efa3ba931b0200411b"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, vtkSmartPointer&lt; vtkActor &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a66336f1da1fae2efa3ba931b0200411b">get_loaded_shape_models</a> ()</td></tr>
+<tr class="separator:a66336f1da1fae2efa3ba931b0200411b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b5a7e12ee640a135870d1c47b2b833d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a0b5a7e12ee640a135870d1c47b2b833d">draw_ref_frame</a> (const std::string ref_name)</td></tr>
+<tr class="separator:a0b5a7e12ee640a135870d1c47b2b833d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -131,6 +141,30 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a85b2b2d7ed0980f7dcd8dbfa33e7ce0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa03c694e70fca11b53d3becbc68e3c06"><td class="memItemLeft" align="right" valign="top">QDockWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#aa03c694e70fca11b53d3becbc68e3c06">lateral_dockwidget</a></td></tr>
 <tr class="separator:aa03c694e70fca11b53d3becbc68e3c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4cb1214962b8f8e3afebfb96cdb4df"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#abf4cb1214962b8f8e3afebfb96cdb4df">backgroundColorAct</a></td></tr>
+<tr class="separator:abf4cb1214962b8f8e3afebfb96cdb4df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d993ba689bfecf714ff43373ac08967"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a5d993ba689bfecf714ff43373ac08967">loadRefFrameAct</a></td></tr>
+<tr class="separator:a5d993ba689bfecf714ff43373ac08967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d47f9b9c56abbe8f1a8c6878e808e3a"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a0d47f9b9c56abbe8f1a8c6878e808e3a">saveContextAct</a></td></tr>
+<tr class="separator:a0d47f9b9c56abbe8f1a8c6878e808e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183ad4807b9a7a63fe5ae837a1ca0fd1"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a183ad4807b9a7a63fe5ae837a1ca0fd1">createReferenceFrameAct</a></td></tr>
+<tr class="separator:a183ad4807b9a7a63fe5ae837a1ca0fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09323743473396e208e9209823443d83"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a09323743473396e208e9209823443d83">resetCameraAct</a></td></tr>
+<tr class="separator:a09323743473396e208e9209823443d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f279c48ccd8e613a5032c50a6cf1052"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a2f279c48ccd8e613a5032c50a6cf1052">transformRefAct</a></td></tr>
+<tr class="separator:a2f279c48ccd8e613a5032c50a6cf1052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2452fe036a0015e704177cb3e10a383"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#aa2452fe036a0015e704177cb3e10a383">editRefFramePropertyAct</a></td></tr>
+<tr class="separator:aa2452fe036a0015e704177cb3e10a383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b2aa8f6d0746ecb92f7c9fa50936e3"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a16b2aa8f6d0746ecb92f7c9fa50936e3">changeCameraFocusAct</a></td></tr>
+<tr class="separator:a16b2aa8f6d0746ecb92f7c9fa50936e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc08d902adaf2fa21e28f895925ceb6"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a7cc08d902adaf2fa21e28f895925ceb6">manageShapeModelsAct</a></td></tr>
+<tr class="separator:a7cc08d902adaf2fa21e28f895925ceb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec0aec966a6c7d40a54f6157c47a4f9"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a3ec0aec966a6c7d40a54f6157c47a4f9">createInstrumentAct</a></td></tr>
+<tr class="separator:a3ec0aec966a6c7d40a54f6157c47a4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae767a1c1c8b2a4a5d4aa69b62361db9a"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#ae767a1c1c8b2a4a5d4aa69b62361db9a">editInstrumentAct</a></td></tr>
+<tr class="separator:ae767a1c1c8b2a4a5d4aa69b62361db9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aecae63fa00f7966c9aff4104b223a3"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mainwindow.html#a0aecae63fa00f7966c9aff4104b223a3">removeInstrumentAct</a></td></tr>
+<tr class="separator:a0aecae63fa00f7966c9aff4104b223a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Declaration of the <a class="el" href="class_mainwindow.html">Mainwindow</a> Class. Main class of the GUI as it hosts the VTK pipeline visualizer and the actions/menus allowing the user to interact with the program data. </p>
@@ -167,6 +201,69 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a3c15f201453bda204f4ffc2a420428c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ref_transform.html">RefTransform</a> * Mainwindow::create_reference_frame </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>frame_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>parent_frame_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>focal_length</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a new reference frame and adds it to the reference frame graph </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frame_name</td><td>Name of the newly created reference frame </td></tr>
+    <tr><td class="paramname">parent_frame_name</td><td>String denoting the parent frame </td></tr>
+    <tr><td class="paramname">focal_length</td><td>Focal length argument, only used when method is called to create instrument </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the reference frame transform between the parent and the newly created reference frame </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0b5a7e12ee640a135870d1c47b2b833d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mainwindow::draw_ref_frame </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>ref_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Draw actors showing reference frame </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ref_name</td><td>Name of the reference frame to draw (ex: "B"). The provided name must correspond to an existing reference frame in this -&gt; ref_frames </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="abb949ec0505dc0e1e5b8f00c0ac81ee2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -183,12 +280,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0d19d559394354d5946153f10a729793"></a>
+<a class="anchor" id="a66336f1da1fae2efa3ba931b0200411b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::pair&lt; std::string, vtkSmartPointer&lt; vtkActor &gt; &gt; &gt; * Mainwindow::get_loaded_shape_models </td>
+          <td class="memname">std::map&lt; std::string, vtkSmartPointer&lt; vtkActor &gt; &gt; * Mainwindow::get_loaded_shape_models </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -199,12 +296,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8ee8b842701cf7499f1454cfe21e3c16"></a>
+<a class="anchor" id="ab0d787481375d6f45c0e2b8ee316dc42"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; vtkSmartPointer&lt; vtkAxesActor &gt; &gt; * Mainwindow::get_ref_frame_actors </td>
+          <td class="memname">std::map&lt; std::string, vtkSmartPointer&lt; vtkAxesActor &gt; &gt; * Mainwindow::get_ref_frame_actors </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -247,12 +344,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6ba5bdcafeaeda79f462326f68944bbb"></a>
+<a class="anchor" id="a4099c0bf81e6b890cccc3f1cb58c3518"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; vtkSmartPointer&lt; vtkTransform &gt; &gt; * Mainwindow::get_vtk_transforms_vector </td>
+          <td class="memname">std::map&lt; std::string, vtkSmartPointer&lt; vtkTransform &gt; &gt; * Mainwindow::get_vtk_transforms </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -263,7 +360,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afa7ec8f709f5a0e32006b2fb25301135"></a>
+<a class="anchor" id="ace1445d3e06e8b5d7cf71229d73688fc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mainwindow::remove_instrument </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Removes the currently loaded instruments if any </p>
+
+</div>
+</div>
+<a class="anchor" id="a15d6f31e810051cdfbe188e9701dd32a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -276,14 +397,8 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>menu_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>action_name</em>&#160;</td>
+          <td class="paramtype">QAction *&#160;</td>
+          <td class="paramname"><em>action</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -295,8 +410,7 @@ Public Attributes</h2></td></tr>
 <p>Enable/Disables an action in the GUI </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">enabled</td><td>Status the targeted action will be set to </td></tr>
-    <tr><td class="paramname">menu_name</td><td>String storing the name of the menu containing the targeted action </td></tr>
-    <tr><td class="paramname">action_name</td><td>String storing the name of the targeted action </td></tr>
+    <tr><td class="paramname">action</td><td>Pointer to action to enable/disable </td></tr>
   </table>
   </dd>
 </dl>
@@ -321,6 +435,78 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="abf4cb1214962b8f8e3afebfb96cdb4df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::backgroundColorAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a16b2aa8f6d0746ecb92f7c9fa50936e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::changeCameraFocusAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ec0aec966a6c7d40a54f6157c47a4f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::createInstrumentAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a183ad4807b9a7a63fe5ae837a1ca0fd1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::createReferenceFrameAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae767a1c1c8b2a4a5d4aa69b62361db9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::editInstrumentAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa2452fe036a0015e704177cb3e10a383"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::editRefFramePropertyAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aa03c694e70fca11b53d3becbc68e3c06"></a>
 <div class="memitem">
 <div class="memproto">
@@ -333,12 +519,84 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5d993ba689bfecf714ff43373ac08967"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::loadRefFrameAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7cc08d902adaf2fa21e28f895925ceb6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::manageShapeModelsAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a85b2b2d7ed0980f7dcd8dbfa33e7ce0f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">QVTKWidget* Mainwindow::qvtkWidget</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0aecae63fa00f7966c9aff4104b223a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::removeInstrumentAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a09323743473396e208e9209823443d83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::resetCameraAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0d47f9b9c56abbe8f1a8c6878e808e3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::saveContextAct</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2f279c48ccd8e613a5032c50a6cf1052"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Mainwindow::transformRefAct</td>
         </tr>
       </table>
 </div><div class="memdoc">

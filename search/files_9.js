@@ -2,12 +2,7 @@ var searchData=
 [
   ['readme_2emd',['README.md',['../doc_2_r_e_a_d_m_e_8md.html',1,'']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['ref_5fcontext_2etxt',['ref_context.txt',['../ref__context_8txt.html',1,'']]],
-  ['ref_5fcontext_5f1_2etxt',['ref_context_1.txt',['../ref__context__1_8txt.html',1,'']]],
-  ['ref_5fcontext_5f1_5fmod_2etxt',['ref_context_1_mod.txt',['../ref__context__1__mod_8txt.html',1,'']]],
-  ['ref_5fcontext_5f2_2etxt',['ref_context_2.txt',['../ref__context__2_8txt.html',1,'']]],
-  ['ref_5fcontext_5f2_5fmrp_2etxt',['ref_context_2_mrp.txt',['../ref__context__2__mrp_8txt.html',1,'']]],
-  ['ref_5fcontext_5f3_2etxt',['ref_context_3.txt',['../ref__context__3_8txt.html',1,'']]],
+  ['ref_5fframes_2etxt',['ref_frames.txt',['../ref__frames_8txt.html',1,'']]],
   ['refframegraphpropertieswidget_2ecpp',['RefFrameGraphPropertiesWidget.cpp',['../_ref_frame_graph_properties_widget_8cpp.html',1,'']]],
   ['refframegraphpropertieswidget_2ehpp',['RefFrameGraphPropertiesWidget.hpp',['../_ref_frame_graph_properties_widget_8hpp.html',1,'']]],
   ['refframes_2ecpp',['RefFrames.cpp',['../_ref_frames_8cpp.html',1,'']]],
