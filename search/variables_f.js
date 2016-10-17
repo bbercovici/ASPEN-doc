@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['operateinstrumentact',['operateInstrumentAct',['../class_mainwindow.html#aa42e24ba9ab1d41bd90a36051a6c0a0b',1,'Mainwindow']]],
   ['origin',['origin',['../class_ref_transform.html#aa40bde4f1e5ff6c8db3f7756398b0547',1,'RefTransform']]],
   ['origin_5fholder_5fwidget',['origin_holder_widget',['../class_ref_transform_widget.html#aef6a959111c179715d519d82d6cd42e5',1,'RefTransformWidget']]],
   ['origin_5flayout',['origin_layout',['../class_ref_transform_widget.html#a6f2fdb49090a4d376873caf8076cdc1c',1,'RefTransformWidget']]],

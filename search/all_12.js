@@ -1,6 +1,7 @@
 var searchData=
 [
   ['rad_5fbutton',['rad_button',['../class_ref_transform_widget.html#a4e6975dc241458f0abffbee98caeebd3',1,'RefTransformWidget']]],
+  ['range',['range',['../struct_flash_lidar_measurement.html#a9765a9b4b982cc2e60adfb57c27bbb38',1,'FlashLidarMeasurement']]],
   ['readme_2emd',['README.md',['../doc_2_r_e_a_d_m_e_8md.html',1,'']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
   ['ref_5fframe_5fgraph',['ref_frame_graph',['../class_ref_frames.html#ab81c6696091a1fb18e3c161d8fb975ca',1,'RefFrames']]],
@@ -10,14 +11,14 @@ var searchData=
   ['ref_5fframe_5fvisiblity_5fwidget',['ref_frame_visiblity_widget',['../class_ref_frame_graph_properties_widget.html#a13fff41dc87eaecf09abd500d878cf09',1,'RefFrameGraphPropertiesWidget']]],
   ['ref_5fframes',['ref_frames',['../class_lidar.html#a64796a9b3efb0761f18216b00ab9cea0',1,'Lidar']]],
   ['ref_5fframes_2etxt',['ref_frames.txt',['../ref__frames_8txt.html',1,'']]],
-  ['reference_5fframe_5fcombobox',['reference_frame_combobox',['../class_ref_frame_graph_properties_widget.html#a4fc32b72ca5069baf9a26355d2b149ad',1,'RefFrameGraphPropertiesWidget::reference_frame_combobox()'],['../class_shape_lookup_widget.html#a42bee620e67ec489041e8ff093f2d40e',1,'ShapeLookupWidget::reference_frame_combobox()']]],
-  ['reference_5fframe_5flabel',['reference_frame_label',['../class_ref_frame_graph_properties_widget.html#af13188da7a959ef253ad85e679a01044',1,'RefFrameGraphPropertiesWidget::reference_frame_label()'],['../class_shape_lookup_widget.html#abf7ac01579295cb3407143a2fdfe63b5',1,'ShapeLookupWidget::reference_frame_label()']]],
-  ['reference_5fframe_5flayout',['reference_frame_layout',['../class_ref_frame_graph_properties_widget.html#a3ca4a475efa13be24ce3c41efff2c4ab',1,'RefFrameGraphPropertiesWidget::reference_frame_layout()'],['../class_shape_lookup_widget.html#a66471b8c165a4057d3a424e293360ef0',1,'ShapeLookupWidget::reference_frame_layout()']]],
+  ['reference_5fframe_5fcombobox',['reference_frame_combobox',['../class_manage_shape_models_widget.html#a325aacd62eed417db8a9395f7ff927ad',1,'ManageShapeModelsWidget::reference_frame_combobox()'],['../class_ref_frame_graph_properties_widget.html#a4fc32b72ca5069baf9a26355d2b149ad',1,'RefFrameGraphPropertiesWidget::reference_frame_combobox()']]],
+  ['reference_5fframe_5flabel',['reference_frame_label',['../class_manage_shape_models_widget.html#aa3e87a34be70bf5c3ea024b3d7cb7996',1,'ManageShapeModelsWidget::reference_frame_label()'],['../class_ref_frame_graph_properties_widget.html#af13188da7a959ef253ad85e679a01044',1,'RefFrameGraphPropertiesWidget::reference_frame_label()']]],
+  ['reference_5fframe_5flayout',['reference_frame_layout',['../class_manage_shape_models_widget.html#a9b528f3f1ca3f9351c44efc4709da7d4',1,'ManageShapeModelsWidget::reference_frame_layout()'],['../class_ref_frame_graph_properties_widget.html#a3ca4a475efa13be24ce3c41efff2c4ab',1,'RefFrameGraphPropertiesWidget::reference_frame_layout()']]],
   ['reference_5fframe_5fname_5flabel',['reference_frame_name_label',['../class_create_reference_frame_widget.html#a4b6e811f2c4119bbc5154f32ee50bd62',1,'CreateReferenceFrameWidget']]],
   ['reference_5fframe_5fname_5flayout',['reference_frame_name_layout',['../class_create_reference_frame_widget.html#ae9e7bfb51a6ea47c30cb3df6873a7830',1,'CreateReferenceFrameWidget']]],
   ['reference_5fframe_5fname_5fqlineedit',['reference_frame_name_qlineedit',['../class_create_reference_frame_widget.html#a9cf418da9f248924d0292f54a22e790c',1,'CreateReferenceFrameWidget']]],
   ['reference_5fframe_5fname_5fwidget',['reference_frame_name_widget',['../class_create_reference_frame_widget.html#a035e324629ec88ee361853eda18d3249',1,'CreateReferenceFrameWidget']]],
-  ['reference_5fframe_5fwidget',['reference_frame_widget',['../class_ref_frame_graph_properties_widget.html#adb9b79a727c8c836bd4f940011ea3a71',1,'RefFrameGraphPropertiesWidget::reference_frame_widget()'],['../class_shape_lookup_widget.html#a943cd1af41e8bcf3d7d326a4f1823514',1,'ShapeLookupWidget::reference_frame_widget()']]],
+  ['reference_5fframe_5fwidget',['reference_frame_widget',['../class_manage_shape_models_widget.html#a225e7984cd632fe53d1d421ee575c77b',1,'ManageShapeModelsWidget::reference_frame_widget()'],['../class_ref_frame_graph_properties_widget.html#adb9b79a727c8c836bd4f940011ea3a71',1,'RefFrameGraphPropertiesWidget::reference_frame_widget()']]],
   ['refframegraphpropertieswidget',['RefFrameGraphPropertiesWidget',['../class_ref_frame_graph_properties_widget.html',1,'RefFrameGraphPropertiesWidget'],['../class_ref_frame_graph_properties_widget.html#ad312644ffaba04a0a44849c2a56e10ed',1,'RefFrameGraphPropertiesWidget::RefFrameGraphPropertiesWidget()']]],
   ['refframegraphpropertieswidget_2ecpp',['RefFrameGraphPropertiesWidget.cpp',['../_ref_frame_graph_properties_widget_8cpp.html',1,'']]],
   ['refframegraphpropertieswidget_2ehpp',['RefFrameGraphPropertiesWidget.hpp',['../_ref_frame_graph_properties_widget_8hpp.html',1,'']]],
@@ -31,9 +32,9 @@ var searchData=
   ['reftransformwidget_2ecpp',['RefTransformWidget.cpp',['../_ref_transform_widget_8cpp.html',1,'']]],
   ['reftransformwidget_2ehpp',['RefTransformWidget.hpp',['../_ref_transform_widget_8hpp.html',1,'']]],
   ['remove_5finstrument',['remove_instrument',['../class_mainwindow.html#ace1445d3e06e8b5d7cf71229d73688fc',1,'Mainwindow']]],
-  ['remove_5fshape_5flayout',['remove_shape_layout',['../class_shape_lookup_widget.html#a6bf50b35dce7f4f3d2591ee38d15ddc3',1,'ShapeLookupWidget']]],
-  ['remove_5fshape_5fmodel_5fbutton',['remove_shape_model_button',['../class_shape_lookup_widget.html#ac46348f0f71b05c5bf71c5b298a21ccc',1,'ShapeLookupWidget']]],
-  ['remove_5fshape_5fwidget',['remove_shape_widget',['../class_shape_lookup_widget.html#a6480dd657dfa87da8debd0007c985bea',1,'ShapeLookupWidget']]],
+  ['remove_5fshape_5flayout',['remove_shape_layout',['../class_manage_shape_models_widget.html#ae9787840b4ba15fceaef6135b03ff8ee',1,'ManageShapeModelsWidget']]],
+  ['remove_5fshape_5fmodel_5fbutton',['remove_shape_model_button',['../class_manage_shape_models_widget.html#abfdaa4a16f1371019e470d11b1e50120',1,'ManageShapeModelsWidget']]],
+  ['remove_5fshape_5fwidget',['remove_shape_widget',['../class_manage_shape_models_widget.html#a570a7160146dd2bc3aa6d835391e368a',1,'ManageShapeModelsWidget']]],
   ['removeedge',['removeedge',['../class_adjacency___list.html#a472ebd0a5b83448088959d1173fba710',1,'Adjacency_List']]],
   ['removeinstrumentact',['removeInstrumentAct',['../class_mainwindow.html#a0aecae63fa00f7966c9aff4104b223a3',1,'Mainwindow']]],
   ['removevertex',['removevertex',['../class_adjacency___list.html#a1794c310f08f59d85cb57b5d33caa667',1,'Adjacency_List']]],
@@ -55,5 +56,5 @@ var searchData=
   ['rotation_5ftitle',['rotation_title',['../class_ref_transform_widget.html#a9c50b9aad71581ac88b20c7884de66b2',1,'RefTransformWidget']]],
   ['rotation_5ftitle_5fholder_5flayout',['rotation_title_holder_layout',['../class_ref_transform_widget.html#ae05c64ad2fc90a98cd1825ff5b644191',1,'RefTransformWidget']]],
   ['rotation_5ftitle_5fholder_5fwidget',['rotation_title_holder_widget',['../class_ref_transform_widget.html#ab2bd695b0a952a3f1535257370fd1a82',1,'RefTransformWidget']]],
-  ['rpath',['rpath',['../link_8txt.html#ad0338c762e6505b0c1fbf2a0fc539845',1,'link.txt']]]
+  ['rpath',['rpath',['../link_8txt.html#a52902a1858f7094c68c3ba20a336aad2',1,'link.txt']]]
 ];
